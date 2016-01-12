@@ -6,8 +6,8 @@ var app = express();
 
 app.set('port',process.env.PORT || 8000);
 app.set('views', './views')
-app.set('view engine','jade');
-
+//app.set('view engine','jade');
+app.use(express.static(__dirname + '/static/htmlfiles'));
 app.use('/', express.static(__dirname + '/'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
