@@ -1,0 +1,22 @@
+{
+  "name": "jobmensa",
+  "version": "1.0.0",
+  "description": "Job Search Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit2002/JobMensa.git"
+  },
+  "author": "Ankit and Shivashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankit2002/JobMensa/issues"
+  },
+  "homepage": "https://github.com/ankit2002/JobMensa#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
