@@ -17,7 +17,7 @@ app.get ('/', function (req,res) {
     res.render('login');
 });
 
-require('./db.js')(app);
+require('./server/RoutesAndDB.js')(app);
 
 var server = http.createServer(app).listen(app.get('port'),function(){
     console.log('Server listening on port ' + app.get('port'));
