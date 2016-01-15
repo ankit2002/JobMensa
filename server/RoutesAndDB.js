@@ -4,6 +4,7 @@
 var mongoose = require('mongoose');
 var fs = require('fs');
 var multer = require('multer');
+var path = require('path');
 
 mongoose.connect('mongodb://localhost/Test'); // Test is a Database
 
@@ -60,7 +61,8 @@ module.exports = function(app) {
             }
             else {
                 //res.render('login.html');
-                res.sendfile('index.html');
+                //res.sendfile('static/htmlfiles/index.html');
+                res.sendFile('index.html', { root: path.join(__dirname, './../static/htmlfiles') });
             }
         });
     })
@@ -108,7 +110,7 @@ module.exports = function(app) {
         if (req.file)
             a.img.data = fs.readFileSync(req.file.path)
         else
-            a.img.data = fs.readFileSync("./images/delhi_metro.png")
+            a.img.data = fs.readFileSync("./static/images/default-user-profile-image.png")
 
         a.save(function (err, doc) {
             if (err) {
@@ -137,7 +139,7 @@ module.exports = function(app) {
                     //base64_decode(docs[0].img.data, './uploads/img.png');
 
                     var thumb = new Buffer(docs[0].img.data).toString('base64');
-                    res.render('show.jade', {users: docs, image: thumb});
+                    res.render('jobseekerhome.jade', {users: docs, image: thumb});
                 }
                 else {
                     // No data found

@@ -1,0 +1,22 @@
+//Created by ANKIT on 15/01/16.
+doctype html
+html
+    head
+        style
+            include ../static/cssfiles/jobseekerhome.css
+    body
+        div(class="header")
+            div(id="headertitle")
+                | Welcome
+            div(id="headerbutton")
+                | Logout
+        ul
+            li
+                a.active(href='#home') Home
+            li
+                a(href='#view_jobs') View Jobs
+            li
+                a(href='#update_data') Update Data
+        div(style='margin-left:25%;height:300px;' id="news")
+            img(src="data:image/jpeg;base64,#{image}" width="150px" height="150px")
+            li #{users[0]._id}:
