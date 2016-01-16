@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Seeker App</title>
+    <link rel="stylesheet" href="./public/cssfiles/main.css"/>
+</head>
+<body>
+
+
+
+<form id="signup" action="/jobseeker_registration" enctype="multipart/form-data" method="POST" >
+    <ul id="section-tabs">
+        <li class="current active"><span>1.</span> Personal</li>
+        <li><span>2.</span> Education/Training</li>
+        <li><span>3.</span> Employment</li>
+        <li><span>4.</span> Others</li>
+        <li><span>4.</span> Personal Skills</li>
+    </ul>
+    <div id="fieldsets">
+        <fieldset class="current">
+
+            <!-- The Personal Tab-->
+            <table>
+                <tr>
+                    <td align="right">Email ID:</td>
+                    <td><input type="text" name="job_seeker_id" id="job_seeker_id"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Name:</td>
+                    <td><input type="text" name="job_seeker_name" id="job_seeker_name"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Father's Name:</td>
+                    <td><input type="text" name="job_seeker_father_name" id="job_seeker_father_name"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Mother's Name:</td>
+                    <td><input type="text" name="job_seeker_mother_name"/> </td>
+                </tr>
+                <tr>
+                    <td align="right">Date of Birth:</td>
+                    <td >
+                        <select id="daydropdown" name="daydropdown">
+                        </select>
+                        <select id="monthdropdown" name="monthdropdown">
+                        </select>
+                        <select id="yeardropdown" name="yeardropdown">
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Gender:</td>
+                    <td>
+                        <select id="job_seeker_gender" name="job_seeker_gender">
+                            <option value="male">Male</option>
+                            <option value="female">FeMale</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Marital Status:</td>
+                    <td>
+                        <select id="job_seeker_marital_status" name="job_seeker_marital_status">
+                            <option value="married">Married</option>
+                            <option value="single">Single</option>
+                            <option value="divorced">Divorced</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Nationality:</td>
+                    <td><input type="text" name="job_seeker_nationality"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Religion:</td>
+                    <td><input type="text" name="job_seeker_religion"/></td>
+                </tr>
+                <tr>
+                    <td>Current Address:</td>
+                    <td><input type="text" name="job_seeker_current_address"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Permanent Address:</td>
+                    <td><input type="text" name="job_seeker_permanent_address"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Home Phone:</td>
+                    <td><input type="text" name="job_seeker_homephone"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Mobile:</td>
+                    <td><input type="text" name="job_seeker_mobile"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Office Phone:</td>
+                    <td><input type="text" name="job_seeker_officephone"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="Next" name="Proceed"/></td>
+                </tr>
+            </table>
+
+        </fieldset>
+        <fieldset class="next">
+
+            <table>
+                <tr>
+                    <td>Level:</td>
+                    <td>
+                        <select id="job_seeker_edu_level" name="job_seeker_edu_level">
+                            <option value="Master">Master</option>
+                            <option value="Graduate">Graduate</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>From: <select id="job_seeker_edu_start_year">
+                    </select>
+                    </td>
+                    <td>To: <select id="job_seeker_edu_end_year">
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Institute Name:</td>
+                    <td><input type="text" name="job_seeker_edu_name"/></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text" name="job_seeker_edu_address"/></td>
+                </tr>
+            </table>
+
+            <!--<label for="username">Username:</label>-->
+            <!--<input name="username" type="text">-->
+            <!--<label for="bio">Short Bio:</label>-->
+            <!--<textarea name="bio" class="required"></textarea>-->
+        </fieldset>
+        <fieldset class="next">
+            <table>
+                <tr>
+                    <td>Post:</td>
+                    <td><input type="text" name="job_seeker_post"/></td>
+                </tr>
+                <tr>
+                    <td>Company Name:</td>
+                    <td><input type="text" name="job_seeker_comp_name"/></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text" name="job_seeker_comp_address"/></td>
+                </tr>
+                <tr>
+                    <td>Website:</td>
+                    <td><input type="text" name="job_seeker_web_address"/></td>
+                </tr>
+                <tr>
+                    <td>Job Responsibility:</td>
+                    <td><textarea name="job_responsibility"></textarea></td>
+                </tr>
+
+
+            </table>
+        </fieldset>
+        <fieldset class="next">
+            <!--Need to find the Other-->
+            <input type="file" name="profile_pic_name" onchange="readURL(this);" accept="image/*"/>
+            <img id="profile_pic" name="profile_pic" src="./public/images/default-user-profile-image.png" alt="prifile_pic" width="150px" height="150px" />
+        </fieldset>
+        <fieldset class="next">
+            <table>
+                <tr>
+                    <td>Language:</td>
+                    <td><input type="text" name="job_seeker_language"/></td>
+                </tr>
+                <tr>
+                    <td>Organizational Skills:</td>
+                    <td><textarea name="job_seeker_skill"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <a class="btn" id="next">Next Section ▷</a>
+        <input type="submit" class="btn">
+    </div>
+</form>
+
+<!-- Call JS-->
+<script type="text/javascript" src="./public/jsfiles/jquery.min.js"></script>
+<script type="text/javascript" src="./public/jsfiles/tabmain.js"></script>
+<script src="./public/jsfiles/DOBGenerator.js"></script>
+<script src="./public/jsfiles/profilePicLoader.js"></script>
+<!--Call DOB Method-->
+<script type="text/javascript">
+    //populatedropdown(id_of_day_select, id_of_month_select, id_of_year_select)
+    window.onload=function(){
+        populatedropdown("daydropdown", "monthdropdown", "yeardropdown")
+        populateYear("job_seeker_edu_start_year")
+        populateYear("job_seeker_edu_end_year")
+    }
+
+</script>
+
+</body>
+</html>
