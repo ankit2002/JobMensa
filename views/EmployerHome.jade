@@ -3,19 +3,21 @@ doctype html
 html
     head
         style
-            include ../static/cssfiles/jobseekerhome.css
+            include ../public/cssfiles/jobseekerhome.css
     body
         div(class="header")
             div(id="headertitle")
                 | Welcome
             div(id="headerbutton")
                 | Logout
+
         ul
             li
                 a.active(href='#home') Home
             li
-                a(href='./views/Addjobs') Add Jobs
+                a(href='/Addjobs.html') Add Jobs
             li
-                a(href='#update_data') Update Data
+                a(href='update') Update Data
+
         div(style='margin-left:25%;height:300px;' id="news")
             li #{users[0]._id}:

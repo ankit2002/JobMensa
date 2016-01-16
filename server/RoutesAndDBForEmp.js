@@ -54,7 +54,7 @@ module.exports = function(app) {
     });
 
     app.get('/menuview',function(req,res){
-        res.sendFile('EmployerLogin.html', { root: path.join(__dirname, './../static/htmlfiles') });
+        res.sendFile('EmployerLogin.html', { root: path.join(__dirname, './../public/htmlfiles') });
     });
 
     app.post('/employerValidation',function(req,res){

@@ -61,7 +61,7 @@ module.exports = function(app) {
             }
             else {
                 //res.render('login.html'); // for earlier jade
-                res.sendFile('index.html', { root: path.join(__dirname, './../static/htmlfiles') });
+                res.sendFile('index.html', { root: path.join(__dirname, './../public/htmlfiles') });
             }
         });
     })
@@ -109,7 +109,7 @@ module.exports = function(app) {
         if (req.file)
             a.img.data = fs.readFileSync(req.file.path);
         else
-            a.img.data = fs.readFileSync("./static/images/default-user-profile-image.png");
+            a.img.data = fs.readFileSync("./public/images/default-user-profile-image.png");
 
         a.save(function (err, doc) {
             if (err) {
@@ -136,7 +136,6 @@ module.exports = function(app) {
                     //  testing
                     //var returnable_name = docs[0].img.data;
                     //base64_decode(docs[0].img.data, './uploads/img.png');
-
                     var thumb = new Buffer(docs[0].img.data).toString('base64');
                     res.render('jobseekerhome.jade', {users: docs, image: thumb});
                 }
