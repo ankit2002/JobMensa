@@ -1,3 +1,21 @@
-//
-   Created by ANKIT on 16/01/16.
-
+//Created by ANKIT on 16/01/16.
+doctype html
+html
+    head
+        style
+            include ../static/cssfiles/jobseekerhome.css
+    body
+        div(class="header")
+            div(id="headertitle")
+                | Welcome
+            div(id="headerbutton")
+                | Logout
+        ul
+            li
+                a.active(href='#home') Home
+            li
+                a(href='./views/Addjobs') Add Jobs
+            li
+                a(href='#update_data') Update Data
+        div(style='margin-left:25%;height:300px;' id="news")
+            li #{users[0]._id}:

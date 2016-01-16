@@ -6,7 +6,7 @@ var fs = require('fs');
 var multer = require('multer');
 var path = require('path');
 
-mongoose.connect('mongodb://localhost/Test'); // Test is a Database
+mongoose.connect('mongodb://localhost/JobSeekerDB'); // Test is a Database
 
 module.exports = function(app) {
 
@@ -60,8 +60,7 @@ module.exports = function(app) {
                 res.json(err);
             }
             else {
-                //res.render('login.html');
-                //res.sendfile('static/htmlfiles/index.html');
+                //res.render('login.html'); // for earlier jade
                 res.sendFile('index.html', { root: path.join(__dirname, './../static/htmlfiles') });
             }
         });
@@ -76,7 +75,7 @@ module.exports = function(app) {
 
     var userID = "";
     var userName = "";
-    app.post('/new', upload.single('profile_pic_name'), function (req, res) {
+    app.post('/jobseeker_registration', upload.single('profile_pic_name'), function (req, res) {
 
         var a = new user({
             _id: req.body.job_seeker_id,
@@ -108,9 +107,9 @@ module.exports = function(app) {
         });
 
         if (req.file)
-            a.img.data = fs.readFileSync(req.file.path)
+            a.img.data = fs.readFileSync(req.file.path);
         else
-            a.img.data = fs.readFileSync("./static/images/default-user-profile-image.png")
+            a.img.data = fs.readFileSync("./static/images/default-user-profile-image.png");
 
         a.save(function (err, doc) {
             if (err) {
@@ -143,6 +142,8 @@ module.exports = function(app) {
                 }
                 else {
                     // No data found
+                    console.log("No Data Found" + err)
+                    res.json(err);
                 }
             }
         });

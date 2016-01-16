@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Seeker App</title>
-    <link rel="stylesheet" href="../cssfiles/main.css"/>
+    <link rel="stylesheet" href="./static/cssfiles/main.css"/>
 </head>
 <body>
 
 
 
-<form id="signup" action="/new" enctype="multipart/form-data" method="POST" >
+<form id="signup" action="/jobseeker_registration" enctype="multipart/form-data" method="POST" >
     <ul id="section-tabs">
         <li class="current active"><span>1.</span> Personal</li>
         <li><span>2.</span> Education/Training</li>
@@ -169,7 +169,7 @@
         <fieldset class="next">
             <!--Need to find the Other-->
             <input type="file" name="profile_pic_name" onchange="readURL(this);" accept="image/*"/>
-            <img id="profile_pic" name="profile_pic" src="../images/default-user-profile-image.png" alt="prifile_pic" width="150px" height="150px" />
+            <img id="profile_pic" name="profile_pic" src="./static/images/default-user-profile-image.png" alt="prifile_pic" width="150px" height="150px" />
         </fieldset>
         <fieldset class="next">
             <table>
@@ -189,10 +189,10 @@
 </form>
 
 <!-- Call JS-->
-<script type="text/javascript" src="../jsfiles/jquery.min.js"></script>
-<script type="text/javascript" src="../jsfiles/tabmain.js"></script>
-<script src="../jsfiles/DOBGenerator.js"></script>
-<script src="../jsfiles/profilePicLoader.js"></script>
+<script type="text/javascript" src="./static/jsfiles/jquery.min.js"></script>
+<script type="text/javascript" src="./static/jsfiles/tabmain.js"></script>
+<script src="./static/jsfiles/DOBGenerator.js"></script>
+<script src="./static/jsfiles/profilePicLoader.js"></script>
 <!--Call DOB Method-->
 <script type="text/javascript">
     //populatedropdown(id_of_day_select, id_of_month_select, id_of_year_select)
