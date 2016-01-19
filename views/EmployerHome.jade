@@ -4,20 +4,22 @@ html
     head
         style
             include ../public/cssfiles/jobseekerhome.css
+        title
+            | JobMensa
     body
         div(class="header")
             div(id="headertitle")
                 | Welcome
-            div(id="headerbutton")
-                | Logout
 
         ul
             li
-                a.active(href='#home') Home
+                a.active(href='#') Home
             li
-                a(href='/Addjobs.html') Add Jobs
+                a(href='/OpenAddjobs') Add Jobs
             li
-                a(href='update') Update Data
+                a(href='/showJobs') View Jobs
+            li
+                a(href='/logout') logout
 
         div(style='margin-left:25%;height:300px;' id="news")
             li #{users[0]._id}:

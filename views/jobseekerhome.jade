@@ -4,19 +4,32 @@ html
     head
         style
             include ../public/cssfiles/jobseekerhome.css
+        title
+            | JobMensa
     body
         div(class="header")
             div(id="headertitle")
                 | Welcome
-            div(id="headerbutton")
-                | Logout
         ul
             li
-                a.active(href='#home') Home
+                a.active(href='#') Home
             li
-                a(href='#view_jobs') View Jobs
+                a(href='/ViewJobs') View Jobs
             li
                 a(href='#update_data') Update Data
+            li
+                a(href='/logout') logout
+
         div(style='margin-left:25%;height:300px;' id="news")
-            img(src="data:image/jpeg;base64,#{image}" width="150px" height="150px")
-            li #{users[0]._id}:
+
+
+            each a in users
+                table
+                    tr
+                    td
+                        - var thumb = new Buffer(a.img.data).toString('base64');
+                        img(src="data:image/jpeg;base64,#{thumb}" width="150px" height="150px")
+
+
+
+                //li #{users[0]._id}:

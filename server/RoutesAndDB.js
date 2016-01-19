@@ -61,7 +61,8 @@ module.exports = function(app) {
             }
             else {
                 //res.render('login.html'); // for earlier jade
-                res.sendFile('index.html', { root: path.join(__dirname, './../public/htmlfiles') });
+                res.sendFile('index.html',{ root: path.join(__dirname, '../public/htmlfiles')});
+
             }
         });
     })
@@ -125,6 +126,7 @@ module.exports = function(app) {
 
     app.post('/loginValidation', function (req, res) {
 
+        // check the user in db
         user.find({"_id": req.body.username, "name": req.body.password}, function (err, docs) {
             if (err) {
                 console.log("login error" + err)
@@ -133,9 +135,12 @@ module.exports = function(app) {
             else {
 
                 if (docs.length == 1) {
+
                     //  testing
                     //var returnable_name = docs[0].img.data;
                     //base64_decode(docs[0].img.data, './uploads/img.png');
+                    req.session.email = req.body.username;
+                    req.session.name = "jobseeker";
                     var thumb = new Buffer(docs[0].img.data).toString('base64');
                     res.render('jobseekerhome.jade', {users: docs, image: thumb});
                 }

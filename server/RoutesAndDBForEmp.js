@@ -66,6 +66,9 @@ module.exports = function(app) {
            }
             else{
                if (docs.length == 1) {
+
+                   req.session.email = req.body.username;
+                   req.session.name = "employee";
                    res.render('EmployerHome.jade', {users: docs});
                }
                else {
