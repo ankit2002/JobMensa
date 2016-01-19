@@ -1,0 +1,42 @@
+//Created by ANKIT on 17/01/16.
+doctype html
+html
+   head
+      style
+         include ../public/cssfiles/jobseekerhome.css
+      title
+         | JobMensa
+
+      script.
+            var something = function() {
+               alert("applied successfully");
+               // Need to update DB
+               // Show PopUp
+
+            }
+   body
+      div(class="header")
+         div(id="headertitle")
+            | Welcome
+      ul
+         li
+            a(href='/#') Home
+         li
+            a.active(href='/ViewJobs') View Jobs
+         li
+            a(href='#update_data') Update Data
+         li
+            a(href='/logout') logout
+
+      div(style='margin-left:25%;height:300px;' id="news")
+         table(border=1)
+            for user in users
+               tr
+                  td
+                     |Title : #{user.job_position_title}
+                  td
+                     |Description : #{user.job_description}
+                  td
+                     |City : #{user.job_city}
+                  td
+                     a(href='#') Apply
