@@ -32,6 +32,7 @@ var server = http.createServer(app).listen(app.get('port'),'0.0.0.0',function(){
 require('./server/RoutesAndDB.js')(app);
 require('./server/RoutesAndDBForEmp.js')(app);
 require('./server/RoutesAndDBForJobs.js')(app);
+require('./server/DBForAppliedJobs.js')(app);
 
 
 // Routes
@@ -63,6 +64,7 @@ app.get('/showJobs',function(req,res){
     res.redirect('fetchDataAddedByEmployer');
 });
 
+
 app.get('/logout',function(req,res) {
 
     req.session.destroy(function (err) {
@@ -74,3 +76,11 @@ app.get('/logout',function(req,res) {
         }
     });
 });
+
+//app.post('/saveApplyDataInDB', function (req,res) {
+//    // mapping of both Collections and add data to DB
+//
+//    app.locals.job_id = req.body.jobid;
+//    app.locals.job_seeker_id = req.body.employerData;
+//    res.redirect('appliedJobs');
+//});

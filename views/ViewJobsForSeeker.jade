@@ -7,13 +7,13 @@ html
       title
          | JobMensa
 
-      script.
-            var something = function() {
-               alert("applied successfully");
-               // Need to update DB
-               // Show PopUp
+      //script.
+      //   var something = function(test){
+      //       console.log(test);
+      //       var local_data =!{JSON.stringify(test)};
+      //       script(src='server/RoutesAndDb.js')
+      //   }
 
-            }
    body
       div(class="header")
          div(id="headertitle")
@@ -29,14 +29,14 @@ html
             a(href='/logout') logout
 
       div(style='margin-left:25%;height:300px;' id="news")
-         table(border=1)
-            for user in users
-               tr
-                  td
-                     |Title : #{user.job_position_title}
-                  td
-                     |Description : #{user.job_description}
-                  td
-                     |City : #{user.job_city}
-                  td
-                     a(href='#') Apply
+          table(border=1)
+              for user in users
+                  tr
+                      td
+                          |Title : #{user.job_position_title}
+                      td
+                          |Description : #{user.job_description}
+                      td
+                          |City : #{user.job_city}
+                      td
+                          a(href='/applyJobsPage/'+user._id) Apply

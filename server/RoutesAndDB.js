@@ -54,17 +54,19 @@ module.exports = function(app) {
 
     app.get('/view', function (req, res) {
 
-        user.find({"_id": userID}, function (err, docs) {
-            if (err) {
-                console.log("ankit error" + err)
-                res.json(err);
-            }
-            else {
-                //res.render('login.html'); // for earlier jade
-                res.sendFile('index.html',{ root: path.join(__dirname, '../public/htmlfiles')});
+        res.sendFile('index.html',{ root: path.join(__dirname, '../public/htmlfiles')});
 
-            }
-        });
+        // Earlier used for redirection
+        //user.find({"_id": userID}, function (err, docs) {
+        //    if (err) {
+        //        console.log("ankit error" + err)
+        //        res.json(err);
+        //    }
+        //    else {
+        //        //res.render('login.html'); // for earlier jade
+        //        res.sendFile('index.html',{ root: path.join(__dirname, '../public/htmlfiles')});
+        //    }
+        //});
     })
 
 
@@ -74,8 +76,8 @@ module.exports = function(app) {
     })
 
 
-    var userID = "";
-    var userName = "";
+    //var userID = "";
+    //var userName = "";
     app.post('/jobseeker_registration', upload.single('profile_pic_name'), function (req, res) {
 
         var a = new user({
@@ -94,16 +96,16 @@ module.exports = function(app) {
             mobile_phone: req.body.job_seeker_mobile,
             office_phone: req.body.job_seeker_officephone,
             edu_level: req.body.job_seeker_edu_level,
-            edu_start_year: req.body.edu_start_year,
-            edu_end_year: req.body.edu_end_year,
-            edu_institute_name: req.body.edu_institute_name,
-            edu_addr: req.body.edu_addr,
-            emp_post: req.body.emp_post,
-            emp_company_name: req.body.emp_company_name,
-            emp_company_addr: req.body.emp_company_addr,
-            emp_company_webaddr: req.body.emp_company_webaddr,
-            emp_responsibiility: req.body.emp_responsibiility,
-            language_spoken: req.body.job_seeker_language,
+            edu_start_year: req.body.job_seeker_edu_start_year,
+            edu_end_year: req.body.job_seeker_edu_end_year,
+            edu_institute_name: req.body.job_seeker_edu_institute_name,
+            edu_addr: req.body.job_seeker_edu_institute_address,
+            emp_post: req.body.job_seeker_designation,
+            emp_company_name: req.body.job_seeker_comp_name,
+            emp_company_addr: req.body.job_seeker_comp_address,
+            emp_company_webaddr: req.body.job_seeker_comp_web_address,
+            emp_responsibiility: req.body.job_responsibility,
+            language_spoken: req.body.job_seeker_languages,
             skills: req.body.job_seeker_skill
         });
 
@@ -116,8 +118,8 @@ module.exports = function(app) {
             if (err) {
                 res.json(err);
             } else {
-                userID = req.body.job_seeker_id;
-                userName = req.body.job_seeker_name;
+                //userID = req.body.job_seeker_id;
+                //userName = req.body.job_seeker_name;
                 res.redirect('/view');
             }
         });
@@ -136,7 +138,7 @@ module.exports = function(app) {
 
                 if (docs.length == 1) {
 
-                    //  testing
+                    //  converting bytes into Image
                     //var returnable_name = docs[0].img.data;
                     //base64_decode(docs[0].img.data, './uploads/img.png');
                     req.session.email = req.body.username;
@@ -153,4 +155,20 @@ module.exports = function(app) {
         });
     });
 
+
+    // Method to fetch Data For Job Apply
+    app.get('/applyJobsPage/:id', function (req,res) {
+
+        user.find({"_id":req.session.email}, function (err,docs) {
+
+            if(err){
+                console.log("Error on Apply JObs DB");
+                res.json(err);
+            }
+            else{
+                var jobid = req.params.id;
+                res.render('ApplyJobsPage',{data:docs , jobid:jobid});
+            }
+        });
+    });
 };
