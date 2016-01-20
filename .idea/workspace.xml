@@ -2,135 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83930e3-182b-44e7-81c6-a76de806f50d" name="Default" comment="Design Provided by Tanvir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/057016bf7992cefad6a4ffa1ce806763.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/client/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/1469ba479dcba8ce17dbd735d4a73ab3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/client/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/client/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/319bfe2ad161d9284a59e4eb7551f42c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/3da71cb1c9b2ff2ff3d4edab7332baf5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/client/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/431ddc788604b3d4e5c5efb7cc596881.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/4a1c510fcd157d58956dcea97eea2ff2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/4e443d2df4e862fc8d8cc29e8d24dd7a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/4f32f0da1fdbaeb89e5370c734449b48.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/client/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/52f104a5db521e6d9cffd444623eceb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/54f50321dea9882919116178fcc21d5a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/5b23187ff6afd91b8e9adc873a73da45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/6905fe4fa00003e362a310b7aa2b2783.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/77238021.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/781c5b2d1b717a1b1195d9a247d4278b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/90.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/9c35be932b0151f947ac0d215ae46a15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/Logo-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/Untitled-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/William.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/add.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/adidas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/audi.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/b0e696188a3bec52b82c69396c1d1281.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/b327bb07268bb46dced807ec91fb43a5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/b7f4d7d42d3c5da82d08c4b408eebfe2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/b9147ec0d53205885ee6a769069d65b9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bar-silver.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bback2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg-15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/bmw.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/body-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/border.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/c0c6b8c552d83f80d5ae44121c33ecd8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/c61c5fdf4bfb0d77340edd43e4b306b6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/c718454cd6003201a2ef99cda59c76b1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/c7cc4b4db13b61946c22d046bce4a218.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/cd22f972c588afb7691db75cac14b195.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/concord.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/d905e92a35a9151094510d0010ae7355.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/d96168728234bf51b7bc912ddd0de871.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/da01cc67d77624939a58c41fb08b7e1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/da5d1787ca157eb8366b1622da201a21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/db.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/employer/picture/eaf47e23fbc8d9d7ce1282ea6dc98f87.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/em.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/emp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/emp2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/foyzlake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/happy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/head2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/item-pointer-mover.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/item-pointer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/j.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/jobs1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lava.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lava.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo-light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo-light2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main-delimiter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/menu-bg1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/menu-bg2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/menu-divider.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/menu-divider2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/menu-hover.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/nike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/s3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add/sap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/seeker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tanvir.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/w2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/Duration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/JobPosting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/htmlfiles/JobSeekerLogin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/charCount.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/colorpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/eye.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/homestyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/jquery-1.4.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/logincss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/optoin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/utils.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/htmlfiles/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/DBForAppliedJobs.js" afterPath="$PROJECT_DIR$/server/DBForAppliedJobs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/htmlfiles/EmployerLogin.html" afterPath="$PROJECT_DIR$/public/htmlfiles/EmployerLogin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html" afterPath="$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDB.js" afterPath="$PROJECT_DIR$/server/RoutesAndDB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/employer.html" afterPath="$PROJECT_DIR$/design/employer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/homeemplyee.html" afterPath="$PROJECT_DIR$/design/homeemplyee.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/homeseeker.html" afterPath="$PROJECT_DIR$/design/homeseeker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/index.html" afterPath="$PROJECT_DIR$/design/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" afterPath="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cssfiles/main.css" afterPath="$PROJECT_DIR$/public/cssfiles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/seeker.html" afterPath="$PROJECT_DIR$/design/seeker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/style.css" afterPath="$PROJECT_DIR$/design/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/style.css" afterPath="$PROJECT_DIR$/design/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JobMensa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -151,26 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RoutesAndDB.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
+      <file leaf-file-name="homeseeker.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design/homeseeker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3333335">
-              <caret line="128" column="30" selection-start-line="128" selection-start-column="15" selection-end-line="128" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jobseekerregistration.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56666666">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.93333334">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -232,11 +91,11 @@
         <option value="$PROJECT_DIR$/public/cssfiles/style.css" />
         <option value="$PROJECT_DIR$/public/cssfiles/logincss.css" />
         <option value="$PROJECT_DIR$/public/htmlfiles/EmployerLogin.html" />
-        <option value="$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html" />
         <option value="$PROJECT_DIR$/public/cssfiles/main.css" />
+        <option value="$PROJECT_DIR$/public/htmlfiles/JobSeekerLogin.html" />
         <option value="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" />
         <option value="$PROJECT_DIR$/server/RoutesAndDB.js" />
-        <option value="$PROJECT_DIR$/public/htmlfiles/JobSeekerLogin.html" />
+        <option value="$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html" />
       </list>
     </option>
   </component>
@@ -356,6 +215,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cssfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,16 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForEmp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/ApplyJobsPage.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -683,14 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/images/shadow.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -748,14 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/seeker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/login4.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -797,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/homeseeker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -825,22 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29411766">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/htmlfiles/EmployerLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.117647">
-          <caret line="37" column="86" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6">
-          <caret line="392" column="62" selection-start-line="392" selection-start-column="44" selection-end-line="392" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -871,23 +694,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design/seeker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.633333">
+          <caret line="5" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1666666">
+          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+          <folding>
+            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3333335">
-          <caret line="128" column="30" selection-start-line="128" selection-start-column="15" selection-end-line="128" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.36241612">
+          <caret line="128" column="54" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="54" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56666666">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.75">
+          <caret line="392" column="60" selection-start-line="392" selection-start-column="60" selection-end-line="392" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/htmlfiles/EmployerLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="21.25">
+          <caret line="37" column="86" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForEmp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
           <folding>
-            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/homeseeker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93333334">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
