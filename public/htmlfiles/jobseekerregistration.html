@@ -7,9 +7,15 @@
 </head>
 <body>
 
+<header>
+    <h2>
+        <a title="CSS Junction" href="/"><img src="./public/images/logo.png" width="200px" /></a>
+        <small>Germany Largest Jobsite</small>
+    </h2>
 
-
-<form id="signup" action="/jobseeker_registration" enctype="multipart/form-data" method="POST" >
+</header>
+<div id="content">
+    <form id="signup" action="/jobseeker_registration" enctype="multipart/form-data" method="POST" >
     <ul id="section-tabs">
         <li class="current active"><span>1.</span> Personal</li>
         <li><span>2.</span> Education/Training</li>
@@ -187,12 +193,13 @@
         <input type="submit" class="btn">
     </div>
 </form>
-
+</div>div>
 <!-- Call JS-->
 <script type="text/javascript" src="./public/jsfiles/jquery.min.js"></script>
 <script type="text/javascript" src="./public/jsfiles/tabmain.js"></script>
 <script src="./public/jsfiles/DOBGenerator.js"></script>
 <script src="./public/jsfiles/profilePicLoader.js"></script>
+
 <!--Call DOB Method-->
 <script type="text/javascript">
     //populatedropdown(id_of_day_select, id_of_month_select, id_of_year_select)

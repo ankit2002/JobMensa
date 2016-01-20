@@ -54,7 +54,7 @@ module.exports = function(app) {
 
     app.get('/view', function (req, res) {
 
-        res.sendFile('index.html',{ root: path.join(__dirname, '../public/htmlfiles')});
+        res.sendFile('JobSeekerLogin.html',{ root: path.join(__dirname, '../public/htmlfiles')});
 
         // Earlier used for redirection
         //user.find({"_id": userID}, function (err, docs) {

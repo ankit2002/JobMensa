@@ -294,13 +294,6 @@ text-align: justify;
 }
 
 
-
-
-
-
-
-
-
 .dateTag{background:url(../employer/images/date-tag2.png) 0 0 no-repeat; height:56px; padding:35px 14px 25px 6px; width:37px; color:white; font:31px/25px Impact, Bebas, Helvetica, Arial; display:block; position:absolute; left:-5px; top:-6px; text-align:center; text-shadow:0 2px 0px rgba(0,0,0,0.2);}
 .dateTag small{font-size:17px; display:block; line-height:35px; overflow:hidden; text-align:center;}
 
@@ -312,9 +305,6 @@ footer, header, hgroup, menu, nav, section {
     display:block;
 }
 input, select { vertical-align:middle; }
-
-
-
 
 
 

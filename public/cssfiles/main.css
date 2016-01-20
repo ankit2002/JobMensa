@@ -178,3 +178,6 @@ textarea + .valid {
 .btn:hover {
     background: #26a19a;
 }
+
+header h2{margin:0; width:265px; text-align:left; font-size:40px !important; position:relative; z-index:100;}
+header h2 small{font:normal 16px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif; display:block; color:#000;}

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Job Mensa :: JobSeeker Login</title>
+    <link rel="stylesheet" media="screen"  href="./public/cssfiles/style.css" />
+    <link rel="stylesheet" media="screen"  href="./public/cssfiles/logincss.css" />
+    <script src="./public/jsfiles/jquery.js"></script>
+    <script type="text/javascript" src="./public/jsfiles/jquery.validate.js"></script>
+
+
+</head>
+
+<body>
+
+
+<!--MAIN DIV-->
+<div class="maindiv">
+    <!--AD BANNER 450x60-->
+
+    <header>
+        <h1>
+            <a title="CSS Junction" href="#"><img src="./public/images/logo.png" width="200px" /></a>
+            <small>Germany Largest Jobsite</small>
+        </h1>
+
+    </header>
+    <!-- end AD BANNER 450x60-->
+
+    <div id="wrap">
+        <div id="left">
+            <div class="content_title">
+                <h3 style="color: black">Welcome to
+                    <label class="emptitle">Job Seeker Zone!</label></h3>
+            </div>
+            <div class="content1"> A Right job is a right path of your success. </div>
+
+
+            <div class="content_title">
+                <h3 style="color: black">Exclusive Benefits for
+                    <label class="emptitle">Seekers</label></h3>
+                <ul>
+                    <li> Online Job Apply</li>
+                    <li> Online CV Maker </li>
+                    <li> Hot Job Announcement </li>
+                    <li> Executive Search Service </li>
+                    <li> SMS Jobs Alert </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="content">
+
+            <br />
+
+            <table width="600px" align="center" height="455px;" class="box"><tr><td align="center"> <h2> <img src="./public/images/seeker.png" width="300px" height="50px" /></h2></td></tr><tr><td background="">
+
+                <form  id="table1" action="/loginValidation" method="POST">
+                    <table width="500px"  style="margin-top:5px;margin-left: 70px">
+
+
+                        <tr>
+                            <td width="30%" class="azjValue">Username:</td>
+                            <td  class="azjValues"><input type="text" name="username" size="35" class="azjtextBox required" /></td>
+                        </tr>
+                        <tr>
+                            <td class="azjValue">Password:</td>
+                            <td class="azjValues"><input type="password" name="password" size="35" class="azjtextBox required" /></td>
+                        </tr>
+                    </table>
+                    <table width="500" align="center">
+                        <tr>
+                            <td width="41%"></td>
+                            <td><input class="btnLogin" type="submit" name="submit" tabindex="4" value="Login"></td>
+                        </tr>
+                        <tr>
+                            <td height="22" colspan="2" align="center">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="azjForgotVerdana12">Forgot
+                                your company password?</a></td>
+                        </tr>
+                    </table>
+                    <table width="500" style="margin-left:90px">
+                        <tr><td>
+                            <br /> <div align="center">
+
+                            <a href="./jobseekerregistration.html"> Create New Account </a>
+
+                            <br />
+                      <span class="azjTopMenuDivider">If you have not
+                      created an account.</span></div>
+                            <br /> <br /> <div class="azjWelcomeTxt">(<span class="azjNoticeVerdana11Red">Attention
+                      New Users !</span> To<strong> post jobs</strong> or access
+                            online CV Bank,<br /> please create your <strong>corporate account</strong>
+                            first.)</div></td>
+                        </tr>
+                        <tr>
+                            <td class="footerLeft"></td>
+                            <td class="footerRight"></td>
+                        </tr>
+                    </table>
+                </form>
+
+
+
+
+            </td></tr></table>
+        </div>
+
+        <div id="right">
+        </div>
+
+    </div>
+
+
+
+    <!--Footer-->
+    <div class="clear"></div>
+    <div class="footer center">
+
+    </div>
+    <!--end Footer-->
+
+</div>
+<!--/MAIN DIV-->
+</body>
+</html>

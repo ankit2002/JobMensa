@@ -1,0 +1,718 @@
+//
+   Created by ANKIT on 20/01/16.
+doctype strict
+html(xmlns='http://www.w3.org/1999/xhtml')
+   head
+      title  Job Mensa:: Largest Job Site in Germany
+      meta(http-equiv='Content-Language', content='English')
+      meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+      link(rel='stylesheet', type='text/css', href='../public/cssfiles/homestyle.css', media='screen')
+   body
+      #wraper
+         // Shadow -
+         #swrap
+            #wrap
+               #header
+                  table(width='940px', style=' margin-left:13px; padding-top:8px;')
+                     tr
+                        td(style='width:184px; background:;')
+                           img(src='../public/images/logo.png', width='184px', height='80px')
+                        td.box-shadow(style=' width:300px; padding-top:3px; padding-left:2px;')
+                           center
+                              img(src='../public/images/add/80.jpg', width='350', height='65')
+                        td.box-shadow(style='width:300px;padding-top:3px;')
+                           center
+                              img(src='../public/images/add/90.jpg', width='350', height='65')
+               .middle
+                  .fortpnhm
+                     form(onsubmit='return checkfields()', name='search_job', method='post')
+                        span.forkey
+                           strong Keywords
+                           input(type='text', value='', name='keywords', size='15')
+                        span.forjcat
+                           strong  Job Category
+                           select.sebg(name='category')
+                              option(value='#') Select One
+                              option(value='Accounting') Accounting
+                              option(value='Accounting/Finance/Taxation') Accounting/Finance/Taxation
+                              option(value='Administration And Support') Administration And Support
+                              option(value='Advertising/Public Relations') Advertising/Public Relations
+                              option(value='Aerospace/Aviaition') Aerospace/Aviaition
+                              option(value='Agriculture/Forestry/Environment') Agriculture/Forestry/Environment
+                              option(value='Airline') Airline
+                              option(value='Architecture,Interior Design') Architecture,Interior Design
+                              option(value='Arts & Humanities') Arts & Humanities
+                              option(value='Automobile') Automobile
+                              option(value='Banking') Banking
+                              option(value='Banking and Insurance') Banking and Insurance
+                              option(value='Biotechnology') Biotechnology
+                              option(value='BPO/Call Centre/ITES') BPO/Call Centre/ITES
+                              option(value='Construction,Projects') Construction,Projects
+                              option(value='Consulting/Recruitment Industry') Consulting/Recruitment Industry
+                              option(value='Creative/Web/Graphic Design') Creative/Web/Graphic Design
+                              option(value='Data Entry Services') Data Entry Services
+                              option(value='DBA') DBA
+                              option(value='Diplomatic/Foreign Missions') Diplomatic/Foreign Missions
+                              option(value='dtp') dtp
+                              option(value='Education/Teaching/Training') Education/Teaching/Training
+                              option(value='Engineering Design And RnD') Engineering Design And RnD
+                              option(value='Engineering- Electrical,Electronics') Engineering- Electrical,Electronics
+                              option(value='Engineering- Mech/Automobile') Engineering- Mech/Automobile
+                              option(value='Engineering-Civil Engg/Marine') Engineering-Civil Engg/Marine
+                              option(value='Engineering-Mining/Metallurgy') Engineering-Mining/Metallurgy
+                              option(value='Engineering-petorl/gas/Chem') Engineering-petorl/gas/Chem
+                              option(value='Engineering-Petroleum/Gas/Chem') Engineering-Petroleum/Gas/Chem
+                              option(value='Executive/Manager') Executive/Manager
+                              option(value='Export,Import,Merchandising') Export,Import,Merchandising
+                              option(value='Facility Management') Facility Management
+                              option(value='Fashion,Garments,Jewellery') Fashion,Garments,Jewellery
+                              option(value='Finance') Finance
+                              option(value='fmgc') fmgc
+                              option(value='Freshers') Freshers
+                              option(value='Front Office') Front Office
+                              option(value='Geology/Geophysics') Geology/Geophysics
+                              option(value='Govt. Defence') Govt. Defence
+                              option(value='Govt. Defence') Govt. Defence
+                              option(value='Healthcare-Medical/Nursing') Healthcare-Medical/Nursing
+                              option(value='Hospitality-Tourism/Hotel') Hospitality-Tourism/Hotel
+                              option(value='Human Resource Management') Human Resource Management
+                              option(value='Insurance') Insurance
+                              option(value='Internet') Internet
+                              option(value='IT-Client Server') IT-Client Server
+                              option(value='IT-Database Applications') IT-Database Applications
+                              option(value='IT-Ecom/Internet Technologies') IT-Ecom/Internet Technologies
+                              option(value='IT-Embedded System/Chip Design ') IT-Embedded System/Chip Design
+                              option(value='IT-ERP/CRM') IT-ERP/CRM
+                              option(value='IT-Hardware/Networking/Security') IT-Hardware/Networking/Security
+                              option(value='IT-QA and Testing') IT-QA and Testing
+                              option(value='IT-Software Development') IT-Software Development
+                              option(value='JAVA') JAVA
+                              option(value='Journalism/Editing/Content') Journalism/Editing/Content
+                              option(value='KPO') KPO
+                              option(value='Legal And Consulting') Legal And Consulting
+                              option(value='Logisttics-Transportation/Shipping') Logisttics-Transportation/Shipping
+                              option(value='Management') Management
+                              option(value='Manufacturing/Maint/Quality') Manufacturing/Maint/Quality
+                              option(value='Marketing/Sales/Retailing ') Marketing/Sales/Retailing
+                              option(value='Medical Transcription') Medical Transcription
+                              option(value='Microsoft Jobs') Microsoft Jobs
+                              option(value='MIS') MIS
+                              option(value='navy') navy
+                              option(value='NGO,Govt. and Nonprofit sector') NGO,Govt. and Nonprofit sector
+                              option(value='Oil/Gas') Oil/Gas
+                              option(value='Pharma/Pharmaceutical') Pharma/Pharmaceutical
+                              option(value='Production,Maitenance,Quality') Production,Maitenance,Quality
+                              option(value='SAP') SAP
+                              option(value='Security Services') Security Services
+                              option(value='Self Employment') Self Employment
+                              option(value='Shipping') Shipping
+                              option(value='Sports') Sports
+                              option(value='SSC') SSC
+                              option(value='System Admin') System Admin
+                              option(value='Taxation') Taxation
+                              option(value='Telecom Engg/Services') Telecom Engg/Services
+                              option(value='Top Management') Top Management
+                              option(value='UPSC') UPSC
+                              option(value='Volunteer') Volunteer
+                              option(value='Web Development') Web Development
+                        span.forjcat
+                           strong Location
+                           select#bundesland.form-control(name='bundesland')
+                              option(value='00') bitte auswählen
+                              option(value='08') Baden-Württemberg
+                              option(value='09') Bayern
+                              option(value='11') Berlin
+                              option(value='12') Brandenburg
+                              option(value='04') Bremen
+                              option(value='02') Hamburg
+                              option(value='06') Hessen
+                              option(value='13') Mecklenburg-Vorpommern
+                              option(value='03') Niedersachsen
+                              option(value='05') Nordrhein-Westfalen
+                              option(value='07') Rheinland-Pfalz
+                              option(value='10') Saarland
+                              option(value='14') Sachsen
+                              option(value='15') Sachsen-Anhalt
+                              option(value='01') Schleswig-Holstein
+                              option(value='16') Thüringen
+                        span.forjcat
+                           strong Type
+                           select.sebg(name='employment_type')
+                              option(value='#') Select One
+                              option(value='Full Time') Full Time Job
+                              option(value='Part Time') Mini Job
+                        span.forsbub
+                           input(type='submit', value='Search', name='submit')
+               #m.box-shadow-logo
+                  .log
+                     table(width='180px', style='background:url(../public/images/login4.png) no-repeat;margin-left:-10px;')
+                        tr
+                           td
+                              span(style='display:inline-block; color:#006699')
+                                 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registered?Login
+                              br
+                              | &nbsp;&nbsp;&nbsp;&nbsp;
+                              a(href='/JobSeekerLogin.html', target='_new')
+                                 img(src='../public/images/jobs1.png')
+                                 | &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                              a(href='/EmployerLogin.html', target='_new')
+                                 img(src='../public/images/em.png')
+                              br
+                              | &nbsp;&nbsp;
+                              a(href='/JobSeekerLogin.html') Job Seeker &nbsp;&nbsp;  &nbsp; &nbsp;&nbsp;
+                              a(href='/EmployerLogin.html', style='color:#009999') Employer
+                              br
+                              br
+                              br
+                              #light2.white2
+                                 #content2
+                                    a(href='javascript:void(0)', onclick="document.getElementById('light2').style.display='none';document.getElementById('fade2').style.display='none'")
+                                       img.close-image1(src='http://residentialsearch.savills.co.uk/Content/Images/icon_close.png')
+                                 b
+                                    center 		Job Seeker Login
+                                 br
+                                 img(src='../public/images/add/login.png')
+                              #fade2.black2
+                              #light1.white1
+                                 #content1
+                                    a(href='javascript:void(0)', onclick="document.getElementById('light1').style.display='none';document.getElementById('fade1').style.display='none'")
+                                       img.close-image1(src='http://residentialsearch.savills.co.uk/Content/Images/icon_close.png')
+                                 b
+                                    center 		Employer Login
+                                 br
+                                 img(src='../public/images/add/login.png')
+                              #fade1.black1
+                     table(width='100%')
+                        tr
+                           td
+                              img(src='../public/images/logo.png', width='80', height='38')
+                              b(style='text-shadow: 5px 5px 5px #000000; color:#FFFFFF') Training
+                        tr
+                           td(style='overflow:hidden;')
+                              marquee(scrollamount='3', onmouseout='this.start();', onmouseover='this.stop();', direction='up', behavior='scroll', height='150px;')
+                                 // <p>
+                                 // <div class="border" style="border: 2px solid #E9EAE2; width:156px;box-shadow: 0 2px 15px, 0 0 5px #fff inset; background:#FFFFFF;">
+                                 // <div class="upcomingtrain" style="width:156px;">
+                                 // <div style="">
+                                 // <div class="blackfont11" style="text-align:left; padding:1px;">16th March, 2015 </div>
+                                 // <div class="traintitle" style="text-align:left; padding-top:1px;">
+                                 // <a class="traintitle" target="_blank" href="#">
+                                 // <b>Marketing and Sales in Finance Services</b>
+                                 // </a>
+                                 // </div>
+                                 // <div class="margin" style="float:left; margin-top:3px;">
+                                 // <div class="traintitle" style="float: left; width: 42px; text-align: center; vertical-align: text-top;">
+                                 // <img width="40" height="46" src="images/William.jpg">
+                                 // </div>
+                                 // <div class="blackfont11" style="float: left; width: 110px;">
+                                 // <strong>William Westgate </strong>
+                                 // <br>
+                                 // Director
+                                 // <br>
+                                 // London Training Services
+                                 // </div>
+                                 // </div>
+                                 // </div>
+                                 // <div align="right">
+                                 // <a class="blacklink12" target="_blank" href="#">More»</a>
+                                 // </div>
+                                 // </div>
+                                 // </div>
+                                 // </p>
+                                 p
+                                    .border(style='border: 2px solid #E9EAE2; width:156px;box-shadow: 0 2px 15px, 0 0 5px #fff inset;background:#FFFFFF; margin-top:2px;')
+                                       .upcomingtrain(style='width:156px;')
+                                          div(style='')
+                                             .blackfont11(style='text-align:left; padding:1px;') 20th April, 2016
+                                             .traintitle(style='text-align:left; padding-top:1px;')
+                                                a.traintitle(href='#', target='_blank')
+                                                   b Programming in PHP
+                                             .margin(style='float:left; margin-top:3px;')
+                                                .traintitle(style='float: left; width: 42px; text-align: center; vertical-align: text-top;')
+                                                   img(src='../public/images/tanvir.jpg', width='40', height='46')
+                                                .blackfont11(style='float: left; width: 110px;')
+                                                   strong Mr. Tanvir Ahmed
+                                                   br
+                                                   |  Web Developer
+                                                   br
+                                                   | Opox Gmbh
+                                          div(align='right')
+                                             a.blacklink12(href='#', target='_blank') More»
+                  .cat
+                     table(width='500px', style='margin-left:-9px;')
+                        tr
+                           td
+                     |                     //  Employer Job Division
+                     table.box-shadow-cat(width='100%')
+                        tr
+                           td
+                              img(src='../public/images/add/cat.png', width='472', height='287')
+                  .add
+                     table.box-shadow(width='100%')
+                        tr
+                           td
+                              img(src='../public/images/add/audi.gif', width='225', height='150')
+                        tr
+                           td
+                              img(src='../public/images/add/bmw.gif', width='225', height='150')
+               .c1
+                  .who_hiring
+                     .who_hiring_text  Be with Us
+                  br
+                  table.box-shadow(width='100%')
+                     tr
+                        td   
+                     tr(height='32')
+                        td
+                           center
+                              img.box-shadow(src='../public/images/client/1.jpg', width='90', height='40')
+                        td
+                           center
+                              img.box-shadow(src='../public/images/client/2.jpg', width='90', height='40')
+                        td
+                           center
+                              img.box-shadow(src='../public/images/client/3.png', width='90', height='40')
+                        td
+                           center
+                              img.box-shadow(src='../public/images/client/4.gif', width='90', height='40')
+                        td
+                           center
+                              img.box-shadow(src='../public/images/client/5.png', width='90', height='40')
+                     tr
+                        td   
+                  //
+                    <div class="news_section">
+                    <div class="news_left">Updates</div>
+                    <div class="news_section_middle">
+                    <div style="width:97%; float:left; margin-left:5px; clear:both; text-align:center; ">
+                    <marquee onmouseout="this.start()" onmouseover="this.stop()" direction="left" behavior="scroll" scrollamount="3" scrolldelay="10" align="right">
+                    <a target="_blank" style="color:#3D6DB5; font-family:Verdana, Geneva, sans-serif;font-size: 11px; line-height:-2px; text-decoration:none;" href="http://fw.freshersworld.com/adstatistics/jmapply26Mar12.asp?alpha=1288">Get ENROLLED and SHORTLISTED in 3 EASY STEPS</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a target="_blank" style="color:#3D6DB5; font-family:Verdana, Geneva, sans-serif;font-size: 11px; line-height:-2px; text-decoration:none;" href="http://placement.freshersworld.com/power-preparation/product_list">Subscribe P3 today and avail special offers</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a target="_blank" style="color:#3D6DB5; font-family:Verdana, Geneva, sans-serif;font-size: 11px; line-height:-2px; text-decoration:none;" href="http://placement.freshersworld.com/power-preparation/employability-assessment-test">Participate Now for Employability Assessment Test</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a target="_blank" style="color:#3D6DB5; font-family:Verdana, Geneva, sans-serif;font-size: 11px; line-height:-2px; text-decoration:none;" href="http://fw.freshersworld.com/adstatistics/IIITB010212.asp?alpha=1283&beta=5&gama=1">IIIT-B Yogyata (Java Track): 320 students trained in past 2 years, 97% placed</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a target="_blank" style="color:#3D6DB5; font-family:Verdana, Geneva, sans-serif;font-size: 11px; line-height:-2px; text-decoration:none;" href="http://www.freshersworld.com/embedded.php">Career opportunities in Embedded systems</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a target="_blank" style="color:#3D6DB5; font-family:Verdana, Geneva, sans-serif;font-size: 11px; line-height:-2px; text-decoration:none;" href="http://placement.freshersworld.com/placement-papers">Sample Placement Papers New Version Released</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a target="_blank" style="color:#3D6DB5; font-family:Verdana, Geneva, sans-serif;font-size: 11px; line-height:-2px; text-decoration:none;" href="http://www.freshersworld.com/jobs/category/Technical">Core Engg. Technical Jobs for Fresher : Mech,Civil Etc</a>
+                    </marquee>
+                    </div>
+                    </div>
+                    <div class="news_section_right"></div>
+                    </div>
+               .c2
+                  table
+                     tr
+                        td.box-shadow
+                           embed(src='../public/images/add/db.gif', width='225', height='150')
+               .left2
+                  style.
+                     .cc {
+                        background: url(../public/images/s3.png) repeat;
+                        border: 1px solid #000000;
+                        border-radius: 2px 2px 2px 2px;
+                        box-shadow: 0 2px 5px, 0 0 1px #FFFFFF inset;
+                        float: left;
+                        height: 100px;
+                        margin-left: 0;
+                        padding-bottom: 5px;
+                        padding-top: 7px;
+                        padding-left:2x;
+                        padding-right:2px;
+                        width: 218px;
+                     }
+                     .cc li
+                     {
+                        list-style:none;
+                     }
+                     .logoimg img {
+                        border: 1px solid #666666;
+                        margin: 5px;
+                     }
+                     .floatLeft {
+                        float: left;
+                     }
+                     .floatRight {
+                        float: right;
+                     }
+                     .maincontent {
+                     }
+                     .rightcontent {
+                     }
+                     .adtop {
+                        width: 930px;
+                     }
+                     .smtcontent {
+                        float: left;
+                        font-size: 9.5px;
+                        padding: 7px;
+                        width: 135px;
+                     }
+                     .smtcontent ul li {
+                        font-size: 10px;
+                        line-height: 9px;
+                        /*list-style-image: url("images/bullet_azadi.gif");*/
+                        list-style-type: disc;
+                        margin-left:8px;
+                     }
+                  .center
+                     div
+                        table.test(width='100%')
+                           // Content 1
+                           tbody
+                              tr
+                                 td
+                                    p
+                                       .who_hiring
+                                          .who_hiring_text Smart Jobs
+                                    br
+                              tr
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='50', height='55', alt='Logo', src='../public/images/employer/picture/057016bf7992cefad6a4ffa1ce806763.jpeg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b USTC
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Head of Project
+                                             li
+                                                a(target='_blank', href='#') Asst. Professor
+                                             li
+                                                a(target='_blank', href='#') Faculty Dean
+                                             li
+                                                a(target='_blank', href='#') Lecturer
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/d96168728234bf51b7bc912ddd0de871.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b Shanta Properties
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Head of Projects
+                                             li
+                                                a(target='_blank', href='#') Head of Project
+                                             li
+                                                a(target='_blank', href='#') more[+]
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/057016bf7992cefad6a4ffa1ce806763.jpeg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b University of Science Technology Chittagong
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Asst. Professor
+                                             li
+                                                a(target='_blank', href='#') Faculty Dean
+                                             li
+                                                a(target='_blank', href='#') Lecturer
+                                       .clear
+                              tr
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/b327bb07268bb46dced807ec91fb43a5.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b BRAC
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Legal and Compliance Lawyer
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/3da71cb1c9b2ff2ff3d4edab7332baf5.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b Meghna Group of Industries
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') DGM (Production & QC)
+                                             li
+                                                a(target='_blank', href='#') Asst. Manager (Store)
+                                             li
+                                                a(target='_blank', href='#') more[+]
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/4e443d2df4e862fc8d8cc29e8d24dd7a.png')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b Domicile Group
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Manager (Accounts & Finance)
+                                             li
+                                                a(target='_blank', href='#') Accounts Officer
+                                             li
+                                                a(target='_blank', href='#') more[+]
+                                       .clear
+                              tr
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/319bfe2ad161d9284a59e4eb7551f42c.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b KDS Steel
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Manager (Supply Chain & Commercial)
+                                       .clear
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/c718454cd6003201a2ef99cda59c76b1.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b Moon Group
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Asst. Manager (Tour & Operation)
+                                             li
+                                                a(target='_blank', href='#') Asst. Manager (Card Division)
+                                             li
+                                                a(target='_blank', href='#') more[+]
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/da5d1787ca157eb8366b1622da201a21.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b KYCR Coil Industries Ltd.
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Manager (Quality Control)
+                                             li
+                                                a(target='_blank', href='#') Weighing Scale Operator
+                                       .clear
+                              tr
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(alt='Logo', src='../public/images/employer/picture/Logo-2.gif', width='55', height='55')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b Bangladesh Nutrition & Dairy Food Industries
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Marketing Officer
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/c0c6b8c552d83f80d5ae44121c33ecd8.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b Alam Group Of  Companies (UAE)
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Executive (Audit)
+                                             li
+                                                a(target='_blank', href='#') Security Guard
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/c718454cd6003201a2ef99cda59c76b1.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b Abul Khair Group
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Production Manager / In-charge
+                                             li
+                                                a(target='_blank', href='#') Maintenance Manager / In-charge
+                                       .clear
+                              tr
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/b0e696188a3bec52b82c69396c1d1281.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b AK Khan Penfabric Co. Ltd.
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Technician (Packing)
+                                             li
+                                                a(target='_blank', href='#') Technician (Quality Controller)
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(alt='Logo', src='../public/images/employer/picture/Logo-2.gif', width='55', height='55')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b ??? ????? ????? ???? ???? ???????????? ???????
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') ????????????? ??????????
+                                             li
+                                                a(target='_blank', href='#') ?????? ????????????? ??????????
+                                             li
+                                                a(target='_blank', href='#') more[+]
+                                       .clear
+                                    // Content 1
+                                    // div class="dot"></div
+                                 td
+                                    .cc
+                                       .logoimg.floatLeft
+                                          img(width='55', height='55', alt='Logo', src='../public/images/employer/picture/9c35be932b0151f947ac0d215ae46a15.jpg')
+                                       .smtcontent
+                                          font(color='#1E6982')
+                                             b Hela Clothing Bd. Ltd.
+                                          ul
+                                             li
+                                                a(target='_blank', href='#') Treasury Executive
+                                       .clear
+               .right
+                  table(width='100%')
+                     tr
+                        td.box-shadow  
+                     tr
+                        td
+                           img.box-shadow(src='../public/images/add/nike.png', width='110', height='60')
+                           img.box-shadow(src='../public/images/add/adidas.png', width='110', height='60')
+                     tr
+                        td.box-shadow
+                           img(src='../public/images/add/sap.png', width='235', height='150')
+                     tr
+                        td.box-shadow
+                           img(src='../public/images/add/add.jpeg', width='235', height='150')
+                     tr.box-shadow
+                        td
+                           h3(style=' color:#006699') Poll your Opinion
+                           p
+                              b(style='background:none;') Do you see a salary hike of more than 25% after 2011-12 appraisals in Germany ?
+                           ul.pol-radio
+                              li
+                                 input#poll-answer-185(type='radio', style='margin-right:5px;', value='185', name='poll_51')
+                                 label(style='word-wrap:break-word', for='poll-answer-185') Yes
+                              li
+                                 input#poll-answer-186(type='radio', style='margin-right:5px;', value='186', name='poll_51')
+                                 label(style='word-wrap:break-word', for='poll-answer-186') No
+                           p(style='text-align:left; margin-left:10px;')
+                              input.Buttons(type='button', onclick='poll_vote(51);', value=' Vote ', name='vote')
+                              a(title='View Results Of This Poll', onclick='poll_result(51); return false;', href='#ViewPollResults') View Results
+                           br
+               // <div id="footer">
+               // <table width="100%" border="0" cellpadding="0" cellspacing="0" class="box-shadow">
+               // <tr>
+               // <td class='footer'>
+               // <table width='100%' border='0' cellspacing='0' cellpadding='0'>
+               // <tr>
+               // <td width='5' valign='top'>
+               // <div style='float:left; background:url(http://media2.monstergulf.com/v2.1/icon.png) -47px 0px; width:4px; height:4px;'></div></td>
+               // <td width='961' style='padding:22px 17px 22px 17px;'>
+               // <table width='100%' border='0' cellspacing='0' cellpadding='0'>
+               // <tr>
+               // <td width='25%' height='23'valign='top' class='txt_13 txt_orange' style='border-bottom:#cdd1ba 1px solid;'>For Jobs Seekers</td>
+               // <td width='25%'  valign='top' class='txt_13 txt_orange' style='border-bottom:#cdd1ba 1px solid;'>Jobs By Functions</td>
+               // <td width='25%' valign='top' class='txt_13 txt_orange' style='border-bottom:#cdd1ba 1px solid;'>Jobs By Location</td> <td width='25%' valign='top' class='txt_13 txt_orange' style='border-bottom:#cdd1ba 1px solid;'> About Our Site </td>
+               // </tr>
+               // <tr>
+               // <td  valign='top' class='footerlinks' style='border-top:#ffffff 1px solid; padding:7px 0px;'>
+               // <div id='footerlinks'>
+               // <a href='http://www.monstergulf.com/index.html'>Home</a>
+               // <a href='http://jobsearch.monstergulf.com/search.html'> Search Jobs</a>
+               // <a href='http://jobs.monstergulf.com/'>View All Jobs</a>
+               // <a href='http://www.monstergulf.com/monster-jobs.html'>Monster Jobs</a>
+               // <a href='http://my.monstergulf.com/create_account.html'>Submit Resume</a>
+               // <a href='http://mobile.monstergulf.com/index.html'>Jobs On Mobile</a>
+               // <a href='http://my.monstergulf.com/manageagents.html'>Jobs In Your Inbox</a>
+               // <a href='http://company.monstergulf.com/index.html'>Know about Companies</a>
+               // <a href='http://my.monstergulf.com/my_monster.html'>My Monster</a>
+               // <a href='http://content.monstergulf.com/index.html'>Career Center</a>
+               // <a href='http://www.monstergulf.com/help.html'>Help</a>
+               // </div>
+               // </td>
+               // <td  valign='top' class='footerlinks' style='border-top:#ffffff 1px solid; padding:7px 0px;'>
+               // <div id='footerlinks'>
+               // <a href='http://oilngas.monstergulf.com/'>Oil & Gas Jobs</a>
+               // <a href='http://construction.monstergulf.com/'>Construction Jobs</a>
+               // <a href='http://sales.monstergulf.com/'>Sales Jobs</a>
+               // <a href='http://technology.monstergulf.com/'>IT Jobs</a>
+               // <a href='http://technology.monstergulf.com/'>Software Jobs</a>
+               // <a href='http://finance.monstergulf.com/'>Finance jobs</a>
+               // <a href='http://company.monstergulf.com/index.html'>Companies</a>
+               // <a href='http://pa.monstergulf.com/index.html'> Placement Consultants</a>
+               // <a href='http://jobsearch.monstergulf.com/industry/index.html'>Jobs by Industry</a>
+               // <a href='http://jobsearch.monstergulf.com/category/rss_index.html'  style='text-decoration:none'>RSS Feed <img src='http://media.monstergulf.com/v2.1/icon_RSS.gif'  border='0' align='absmiddle' /></a>
+               // </div>
+               // </td>
+               // <td  valign='top' class='footerlinks' style='border-top:#ffffff 1px solid; padding:7px 0px;'>
+               // <div id='footerlinks'>
+               // <a href='#'>Jobs in Munich</a>
+               // <a href='#'>Jobs in Hannover</a>
+               // <a href='http://jordan.monstergulf.com/'>Jobs in Hamburg</a>
+               // <a href='http://kuwait.monstergulf.com/'>Jobs in Fulda</a>
+               // <a href='http://lebanon.monstergulf.com/'>Jobs in Frankfurt</a>
+               // <a href='http://oman.monstergulf.com/'>Jobs in Dusseldorf</a>
+               // <a href='http://qatar.monstergulf.com/'>Jobs in Leipzig</a>
+               // <a href='http://saudi-arabia.monstergulf.com/'> Jobs in Nurnberg</a>
+               // <a href='http://uae.monstergulf.com/'>Jobs in Berlin</a>
+               // <a href='http://jobsearch.monstergulf.com/location/egypt.html'>Jobs in Rostock</a>
+               // <a href='http://www.monster.com/geo/siteselection/'  target='_blank'>International Jobs</a>
+               // </div>
+               // </td>
+               // <td  valign='top' class='footerlinks' style='border-top:#ffffff 1px solid; padding:7px 0px;'>
+               // <div id='footerlinks'>
+               // <a href='http://www.monstergulf.com/contact_us.html'>Contact Us</a>
+               // <a href='http://www.monstergulf.com/about_us.html'>About Monster</a>
+               // <a href='http://www.monstergulf.com/privacy.html'>Privacy Commitment</a>
+               // <a href='http://www.monstergulf.com/besafe.html'>Be Safe</a>
+               // <a href='http://www.monstergulf.com/terms_of_use.html'>Terms of Use</a>
+               // <a href='http://www.monstergulf.com/feedback.html'>Report a Bug/Abuse</a>
+               // <a href='http://www.monstergulf.com/sitemap.html'>Sitemap</a>
+               // <a href='http://www.monstergulf.com/security/security_center.html'>Fraud/Security</a>
+               // <a href='http://www.monstergulf.com/testimonials/index.html'  target='_blank'>Customer Speaks</a>
+               // </div>
+               // </td>
+               // </tr>
+               // </table>
+               // </td></tr></table>
+               // </div>
+               div(style='clear: both;')
+               #footer_add
+                  hr
+                  br
+                  a(href='http://www.templatesold.com/', target='_blank') Website Developed By
+                  |  by
+                  a(href='', target='_blank')  Kiel Job Mensa
+                  p For Employers: Home | Employer Login
+                  p © 2016 Kiel Job Mensa - All Rights Reserved Kiel - Germany
+                  p Mobile: +4917647376721, info@jobmensa.com
+         // shadow
+      // wrapper end
+

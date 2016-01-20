@@ -521,7 +521,7 @@ ul li .panel_one {
 
 
 
-<!----- Priority jobs-------------->
+/*<!----- Priority jobs-------------->*/
 
 .cc {
     background: url(images/head.png) repeat scroll 0 0 transparent;
@@ -556,6 +556,3 @@ ul li .panel_one {
 .adtop {
     width: 930px;
 }
-   
-   
-  <!-----  End ------------->

@@ -52,7 +52,8 @@ app.get('/',function(req,res){
         console.log("user already Loged in");
     }
     else{
-        res.sendFile('index.html');
+        res.render('index.jade');
+        //res.sendFile('index.html');
     }
 });
 
