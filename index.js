@@ -3,10 +3,14 @@ var session = require('express-session');
 var http = require('http');
 var bodyParser = require('body-parser');
 var path = require('path');
-var io = require('socket.io').listen(server);
+var users = {};
+
 var mongoose = require('mongoose');
 
 var app = express();
+var server = http.createServer(app);
+var io = require('socket.io').listen(server);
+
 mongoose.connect('mongodb://localhost/JobSeekerDB'); // Test is a Database
 
 app.set('port',process.env.PORT || 8000);
@@ -30,9 +34,13 @@ app.use(session({
 
 
 
-var server = http.createServer(app).listen(app.get('port'),'0.0.0.0',function(){
-    console.log('Server listening on port ' + app.get('port'));
+server.listen(app.get('port'), '0.0.0.0',function () {
+    console.log("Server listening on port" + app.get('port'));
 });
+
+//var server = http.createServer(app).listen(app.get('port'),'0.0.0.0',function(){
+//    console.log('Server listening on port ' + app.get('port'));
+//});
 
 require('./server/RoutesAndDB.js')(app);
 require('./server/RoutesAndDBForEmp.js')(app);
@@ -110,6 +118,11 @@ var employercallback = function(data,req,res) {
 //app.post('/updateSeekerData',function(req,res){
 //    res.redirect('/updatejobSeekerData');
 //});
+
+
+app.get('/openChatView', function (req,res) {
+    res.render('chatnew');
+});
 
 
 app.get('/fetchAppliedJobs', function (req,res) {

@@ -2,11 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83930e3-182b-44e7-81c6-a76de806f50d" name="Default" comment="Design Provided by Tanvir">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chat/chat.jade" afterPath="$PROJECT_DIR$/views/chat.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/.zuul.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/bench/bench.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/binary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/chatnew.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/bench/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/is-buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/lib/json3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/lib/json3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/on.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/socket.io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/socket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/url.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDB.js" afterPath="$PROJECT_DIR$/server/RoutesAndDB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" afterPath="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" afterPath="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/chat.jade" afterPath="$PROJECT_DIR$/views/chat.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" afterPath="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JobMensa.iws" />
@@ -28,11 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+            <state vertical-scroll-proportion="-4.446429">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,8 +84,8 @@
       <file leaf-file-name="RoutesAndDB.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+            <state vertical-scroll-proportion="-7.962963">
+              <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -54,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+              <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -62,21 +105,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/chat.jade">
+      <file leaf-file-name="ShowAppliedSeekers.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/ShowAppliedSeekers.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73214287">
-              <caret line="156" column="120" selection-start-line="156" selection-start-column="120" selection-end-line="156" selection-end-column="120" />
+            <state vertical-scroll-proportion="-14.333333">
+              <caret line="86" column="77" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowAppliedSeekers.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/ShowAppliedSeekers.jade">
+      <file leaf-file-name="chatnew.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/chatnew.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.888889">
+              <caret line="275" column="67" selection-start-line="275" selection-start-column="50" selection-end-line="275" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobseekerregistration.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="40" column="67" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -129,7 +192,6 @@
         <option value="$PROJECT_DIR$/public/htmlfiles/EmployerLogin.html" />
         <option value="$PROJECT_DIR$/public/cssfiles/main.css" />
         <option value="$PROJECT_DIR$/public/htmlfiles/JobSeekerLogin.html" />
-        <option value="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" />
         <option value="$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html" />
         <option value="$PROJECT_DIR$/public/cssfiles/style.css" />
         <option value="$PROJECT_DIR$/views/ApplyJobsPage.jade" />
@@ -143,9 +205,12 @@
         <option value="$PROJECT_DIR$/views/Addjobs.jade" />
         <option value="$PROJECT_DIR$/views/ViewJobsForEmployer.jade" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" />
-        <option value="$PROJECT_DIR$/server/RoutesAndDB.js" />
         <option value="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
+        <option value="$PROJECT_DIR$/views/chat.jade" />
+        <option value="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" />
+        <option value="$PROJECT_DIR$/server/RoutesAndDB.js" />
+        <option value="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" />
+        <option value="$PROJECT_DIR$/views/chatnew.jade" />
         <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
@@ -247,20 +312,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JobMensa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JobMensa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -281,11 +332,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/cssfiles" />
       <recent name="$PROJECT_DIR$/public/jsfiles" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+      <recent name="$PROJECT_DIR$/public/cssfiles" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/design/css" />
-      <recent name="$PROJECT_DIR$/static/htmlfiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views" />
@@ -362,7 +413,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1243" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -370,7 +421,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18584071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18584071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24858756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -544,14 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="17" column="98" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/UpdateSeekerData.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1404494">
@@ -628,54 +671,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/views/chat.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44444445">
-          <caret line="252" column="17" selection-start-line="252" selection-start-column="17" selection-end-line="252" selection-end-column="17" />
+        <state vertical-scroll-proportion="-59.88889">
+          <caret line="158" column="66" selection-start-line="57" selection-start-column="6" selection-end-line="158" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/ShowAppliedSeekers.jade">
+    <entry file="file://$PROJECT_DIR$/node_modules/engine.io/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        <state vertical-scroll-proportion="2.8214285">
+          <caret line="499" column="24" selection-start-line="499" selection-start-column="24" selection-end-line="499" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io-client/socket.io.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+          <caret line="654" column="0" selection-start-line="654" selection-start-column="0" selection-end-line="655" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/chat.jade">
+    <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73214287">
-          <caret line="156" column="120" selection-start-line="156" selection-start-column="120" selection-end-line="156" selection-end-column="120" />
+        <state vertical-scroll-proportion="-7.962963">
+          <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ShowAppliedSeekers.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.333333">
+          <caret line="86" column="77" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.888889">
+          <caret line="275" column="67" selection-start-line="275" selection-start-column="50" selection-end-line="275" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/on.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/chatnew.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.446429">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

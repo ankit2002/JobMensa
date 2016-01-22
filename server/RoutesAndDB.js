@@ -13,6 +13,8 @@ module.exports = function(app) {
     var Schema = new mongoose.Schema({
 
         _id: String,
+        pwd: String,
+        cnf_pwd: String,
         name: String,
         father_name: String,
         mother_name: String,
@@ -82,6 +84,8 @@ module.exports = function(app) {
 
         var a = new user({
             _id: req.body.job_seeker_id,
+            pwd: req.body.job_seeker_pwd,
+            cnf_pwd: req.body.job_seeker_cnf_pwd,
             name: req.body.job_seeker_name,
             father_name: req.body.job_seeker_father_name,
             mother_name: req.body.job_seeker_mother_name,
@@ -128,7 +132,7 @@ module.exports = function(app) {
 
     app.post('/loginValidation', function (req, res) {
         // check the user in db
-        user.find({"_id": req.body.username, "name": req.body.password}, function (err, docs) {
+        user.find({"_id": req.body.username, "pwd": req.body.password}, function (err, docs) {
             if (err) {
                 console.log("login error" + err);
                 res.json(err);
