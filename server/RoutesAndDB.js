@@ -6,7 +6,7 @@ var fs = require('fs');
 var multer = require('multer');
 var path = require('path');
 
-mongoose.connect('mongodb://localhost/JobSeekerDB'); // Test is a Database
+
 
 module.exports = function(app) {
 

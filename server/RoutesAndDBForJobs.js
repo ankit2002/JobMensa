@@ -103,14 +103,16 @@ module.exports = function(app) {
                 res.json(err);
             }
             else{
-                if (docs.length > 0) {
-                    callback(docs,req,res);
-                }
-                else {
-                    // No data found
-                    console.log("No Jobs Data Found " + err)
-                    res.json(err);
-                }
+                //if (docs.length > 0) {
+                //    callback(docs,req,res);
+                //}
+                //else {
+                //    // No data found
+                //    console.log("No Jobs Data Found " + err)
+                //    res.json(err);
+                //}
+
+                callback(docs,req,res);
             }
         });
     }

@@ -2,139 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83930e3-182b-44e7-81c6-a76de806f50d" name="Default" comment="Design Provided by Tanvir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/UpdateSeekerData.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/ViewAppliedJobs.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/add.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/adidas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/audi.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/bmw.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/cat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/cc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/concord.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/db.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/foyzlake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/happy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/j.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/nike.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/add/sap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/client/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/client/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/client/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/client/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/client/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/057016bf7992cefad6a4ffa1ce806763.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/1469ba479dcba8ce17dbd735d4a73ab3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/319bfe2ad161d9284a59e4eb7551f42c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/3da71cb1c9b2ff2ff3d4edab7332baf5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/431ddc788604b3d4e5c5efb7cc596881.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/4a1c510fcd157d58956dcea97eea2ff2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/4e443d2df4e862fc8d8cc29e8d24dd7a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/4f32f0da1fdbaeb89e5370c734449b48.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/52f104a5db521e6d9cffd444623eceb3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/54f50321dea9882919116178fcc21d5a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/5b23187ff6afd91b8e9adc873a73da45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/6905fe4fa00003e362a310b7aa2b2783.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/781c5b2d1b717a1b1195d9a247d4278b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/9c35be932b0151f947ac0d215ae46a15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/Logo-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/b0e696188a3bec52b82c69396c1d1281.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/b327bb07268bb46dced807ec91fb43a5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/b7f4d7d42d3c5da82d08c4b408eebfe2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/b9147ec0d53205885ee6a769069d65b9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/c0c6b8c552d83f80d5ae44121c33ecd8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/c61c5fdf4bfb0d77340edd43e4b306b6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/c718454cd6003201a2ef99cda59c76b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/c7cc4b4db13b61946c22d046bce4a218.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/cd22f972c588afb7691db75cac14b195.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/d905e92a35a9151094510d0010ae7355.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/d96168728234bf51b7bc912ddd0de871.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/da01cc67d77624939a58c41fb08b7e1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/da5d1787ca157eb8366b1622da201a21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/employer/picture/eaf47e23fbc8d9d7ce1282ea6dc98f87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/homeemplyee.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/homeseeker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/image/bg-15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/image/border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/image/menu-bg1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/image/menu-bg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/image/menu-divider.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/image/menu-divider2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/image/menu-hover.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/image/shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/77238021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/Untitled-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/William.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/b.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/bar-silver.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/bback2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/body-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/em.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/emp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/emp2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/head.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/head2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/item-pointer-mover.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/item-pointer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/jobs1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/lava.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/lava.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/login3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/login4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/logo-light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/logo-light2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/main-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/main-delimiter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/s2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/s3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/seeker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/tanvir.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/w2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/Duration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/JobPosting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/charCount.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/eye.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/jquery-1.4.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/jquery.validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/optoin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/js/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/seeker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Addjobs.jade" afterPath="$PROJECT_DIR$/views/Addjobs.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ApplyJobsPage.jade" afterPath="$PROJECT_DIR$/views/ApplyJobsPage.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/DBForAppliedJobs.js" afterPath="$PROJECT_DIR$/server/DBForAppliedJobs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/EmployerHome.jade" afterPath="$PROJECT_DIR$/views/EmployerHome.jade" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chat/chat.jade" afterPath="$PROJECT_DIR$/views/chat.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDB.js" afterPath="$PROJECT_DIR$/server/RoutesAndDB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" afterPath="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" afterPath="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ViewJobsForEmployer.jade" afterPath="$PROJECT_DIR$/views/ViewJobsForEmployer.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ViewJobsForSeeker.jade" afterPath="$PROJECT_DIR$/views/ViewJobsForSeeker.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" afterPath="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/jobseekerhome.jade" afterPath="$PROJECT_DIR$/views/jobseekerhome.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cssfiles/style.css" afterPath="$PROJECT_DIR$/public/cssfiles/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JobMensa.iws" />
@@ -156,34 +28,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8176101">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.740741">
-              <caret line="250" column="53" selection-start-line="250" selection-start-column="53" selection-end-line="250" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBForAppliedJobs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/DBForAppliedJobs.js">
+      <file leaf-file-name="RoutesAndDB.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="46" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="46" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoutesAndDBForJobs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/chat.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.73214287">
+              <caret line="156" column="120" selection-start-line="156" selection-start-column="120" selection-end-line="156" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowAppliedSeekers.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/ShowAppliedSeekers.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -246,13 +140,13 @@
         <option value="$PROJECT_DIR$/server/DBForAppliedJobs.js" />
         <option value="$PROJECT_DIR$/views/EmployerHome.jade" />
         <option value="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" />
-        <option value="$PROJECT_DIR$/server/RoutesAndDB.js" />
         <option value="$PROJECT_DIR$/views/Addjobs.jade" />
         <option value="$PROJECT_DIR$/views/ViewJobsForEmployer.jade" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" />
+        <option value="$PROJECT_DIR$/server/RoutesAndDB.js" />
         <option value="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
       </list>
     </option>
   </component>
@@ -353,6 +247,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -378,6 +286,9 @@
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/design/css" />
       <recent name="$PROJECT_DIR$/static/htmlfiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
@@ -699,14 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/ShowAppliedSeekers.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/jobseekerhome.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53672314">
@@ -715,30 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
-          <caret line="145" column="45" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/DBForAppliedJobs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.56349206">
           <caret line="66" column="46" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11309524">
-          <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
@@ -747,16 +630,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.740741">
-          <caret line="250" column="53" selection-start-line="250" selection-start-column="53" selection-end-line="250" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.44444445">
+          <caret line="252" column="17" selection-start-line="252" selection-start-column="17" selection-end-line="252" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ShowAppliedSeekers.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8176101">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/chat.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73214287">
+          <caret line="156" column="120" selection-start-line="156" selection-start-column="120" selection-end-line="156" selection-end-column="120" />
           <folding />
         </state>
       </provider>

@@ -36,6 +36,63 @@ html(xmlns='http://www.w3.org/1999/xhtml')
             // Job TITLE
             // / Job TITLE
             // Content
+        style(type='text/css').
+            #flyBox {
+                position: fixed;
+                top:0px;
+                left:0px;
+                z-index: 998;
+                height: 100%;
+                width: 100%;
+                background-image: url(http://i1122.photobucket.com/albums/l523/Long_Islander/backgroundFlyBox.png);
+                display: none;
+            }
+            #flyBox .borderWindow {
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                color: #000;
+                text-align: left;
+                background-image: url(http://i1122.photobucket.com/albums/l523/Long_Islander/backgroundFlyBox.png);
+                -moz-border-radius: 12px;
+                -webkit-border-radius: 12px;
+                padding: 12px;
+            }
+            #flyBox .container {
+                position: relative;
+            }
+            #flyBox #closeButton {
+                position:absolute;
+                top: -15px;
+                right: -15px;
+            }
+            #flyBox .content {
+                background-color: #FFF;
+                overflow:hidden;
+            }
+            .colheadingL {
+                background-color: #383837;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                font-weight: bold;
+                color: #FFFFFF;
+                padding: 2px;
+                text-align: left;
+            }
+            -->
+    script(language='JavaScript').
+        function displayPopup(alert_MSG) {
+            var theDetail = document.getElementById('flyBox');
+            theDetail.style.display="block";
+        }
+        function closePopup(alert_MSG) {
+            var theDetail = document.getElementById('flyBox');
+            if (theDetail.style.display=="block") {
+                theDetail.style.display="none";
+            }
+        }
+
+
+
             .w9000.center
                 table(style='border-top: 1px solid rgb(255, 255, 255);', width='100%', align='center', border='0', cellpadding='0', cellspacing='0')
                     tbody
@@ -91,3 +148,117 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                                                         | Company Name : #{user[0].emp_company_name}
                                                     td.azjLebels(bgcolor='#dadce1')
                                                         | Webaddress : #{user[0].emp_company_addr}
+                                                    td.azjLebels(bgcolor='#dadce1')
+                                                        a(href="javascript:displayPopup('flyBox')") Start chat with Agent
+
+
+
+
+
+
+
+
+
+                                                    #flyBox(style='display:none;')
+                                                        table(width='100%', height='100%', border='0', cellspacing='0', cellpadding='0')
+                                                            tr
+                                                                td(align='center')
+                                                                    table(border='0', cellspacing='0', cellpadding='0')
+                                                                        tr
+                                                                            td.borderWindow
+                                                                                .container
+                                                                                    #closeButton
+                                                                                        a(href="javascript:closePopup('flyBox')")
+                                                                                            img(src='http://i1122.photobucket.com/albums/l523/Long_Islander/flyBoxClose.png', width='28', height='28', alt='Close Button', border='0')
+                                                                                    .content
+                                                                                        table(width='600', border='0', cellspacing='20', cellpadding='0')
+                                                                                            tr
+                                                                                                td
+                                                                                                    #myMessageBox(name='myMessageBox')
+                                                                                                        table(width='100%', border='0', cellspacing='2', cellpadding='0')
+                                                                                                            tr
+                                                                                                                td.colheadingL Welcome
+                                                                                                            tr
+                                                                                                                td.text1
+                                                                                                                    html
+                                                                                                                        head
+                                                                                                                            title Chat with socket.io and node.js
+                                                                                                                            style.
+                                                                                                                                #chat{
+                                                                                                                                    height:500px;
+                                                                                                                                }
+                                                                                                                                #contentWrap{
+                                                                                                                                    display: none;
+                                                                                                                                }
+                                                                                                                                #chatWrap{
+                                                                                                                                    float: left;
+                                                                                                                                    border: 1px #000 solid;
+                                                                                                                                }
+                                                                                                                                .error{
+                                                                                                                                    color: #ff9b5d;
+                                                                                                                                }
+                                                                                                                                .whisper{
+                                                                                                                                    color: gray;
+                                                                                                                                    font-style: italic;
+                                                                                                                                }
+                                                                                                                        body
+                                                                                                                            #nickWrap
+                                                                                                                                // <p>select employee</p>
+                                                                                                                                p#nickError
+                                                                                                                                form#setNick
+                                                                                                                                    input#nickname(size='35')
+                                                                                                                                    input(type='submit')
+                                                                                                                            #contentWrap
+                                                                                                                                #chatWrap
+                                                                                                                                    #chat
+                                                                                                                                    form#send-message
+                                                                                                                                        input#message(size='35')
+                                                                                                                                        input(type='submit')
+                                                                                                                                #users
+                                                                                                                            script(src='http://code.jquery.com/jquery-latest.min.js')
+                                                                                                                            script(src='/socket.io/socket.io.js')
+                                                                                                                            script.
+                                                                                                                                jQuery(function($){
+                                                                                                                                    var socket = io.connect();
+                                                                                                                                    var $nickForm = $('#setNick');
+                                                                                                                                    var $nickError = $('#nickError');
+                                                                                                                                    var $nickBox = $('#nickname');
+                                                                                                                                    var $users = $('#users');
+                                                                                                                                    var $messageForm = $('#send-message');
+                                                                                                                                    var $messageBox = $('#message');
+                                                                                                                                    var $chat = $('#chat');
+                                                                                                                                    $nickForm.submit(function(e){
+                                                                                                                                        e.preventDefault();
+                                                                                                                                        socket.emit('new user', $nickBox.val(), function(data){
+                                                                                                                                            if(data){
+                                                                                                                                                $('#nickWrap').hide();
+                                                                                                                                                $('#contentWrap').show();
+                                                                                                                                            } else{
+                                                                                                                                                $nickError.html('That username is already taken!  Try again.');
+                                                                                                                                            }
+                                                                                                                                        });
+                                                                                                                                        $nickBox.val('');
+                                                                                                                                    });
+                                                                                                                                    socket.on('usernames', function(data){
+                                                                                                                                        var html = '';
+                                                                                                                                        for(i=0; i < data.length; i++){
+                                                                                                                                            html += data[i] + '<br/>'
+                                                                                                                                        }
+                                                                                                                                        $users.html(html);
+                                                                                                                                    });
+                                                                                                                                    $messageForm.submit(function(e){
+                                                                                                                                        e.preventDefault();
+                                                                                                                                        socket.emit('send message', $messageBox.val(), function(data){
+                                                                                                                                            $chat.append('<span class="error">' + data + "</span><br/>");
+                                                                                                                                        });
+                                                                                                                                        $messageBox.val('');
+                                                                                                                                    });
+                                                                                                                                    socket.on('new message', function(data){
+                                                                                                                                        $chat.append('<span class="msg"><b>' + data.nick + ': </b>' + data.msg + "</span><br/>");
+                                                                                                                                    });
+                                                                                                                                    socket.on('whisper', function(data){
+                                                                                                                                        $c
+                                                                                                                                        hat.append('<span class="whisper"><b>' + data.nick + ': </b>' + data.msg + "</span><br/>");
+                                                                                                                                    });
+                                                                                                                                });
+
