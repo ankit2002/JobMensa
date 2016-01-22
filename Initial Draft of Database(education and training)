@@ -1,0 +1,31 @@
+{
+    "_id" : ObjectId("567322d8cfed9f8f6a5d970f"),
+    "language" : [ 
+        {
+            "language_1" : "",
+            "language_2" : "",
+            "language_3" : "",
+            "others" : ""
+        }
+    ],
+    "organisational_skills" : "",
+    "work_experience" : [ 
+        {
+            "post" : "",
+            "company_name" : "",
+            "address" : "",
+            "website" : "",
+            "job-responsibilitiess" : {}
+        }
+    ],
+    "Education_training" : [ 
+        {
+            "education_training_1" : []
+        }
+    ],
+    "name" : "",
+    "level" : "",
+    "from" : 0,
+    "to" : 0,
+    "institute_name" : ""
+}
