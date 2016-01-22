@@ -2,147 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83930e3-182b-44e7-81c6-a76de806f50d" name="Default" comment="Design Provided by Tanvir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/photos/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/photos/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/photos/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/accept.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/accept.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/arrows-ffffff.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/bg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/body_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/aurora/body_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/body_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/body_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/body_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/button_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/button_middle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/button_right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/cancel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/clear.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/comments.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/comments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/edit.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/edu.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/edu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/error.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/error_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/error_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/folder.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/formular_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/formular_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/formular_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/formular_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/formular_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/frame.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ftp.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ftp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/gallery.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/gallery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/h1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/h1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/h1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/h1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/heart.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_chart_bar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_chart_bar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_error.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_flag.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_globe.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_hourglass.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_hourglass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_mug.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_page.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_posts.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_posts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_settings.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_settings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/input.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ins.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/job_source.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/jobslogo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/aurora/login_wrapper.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/login_wrapper_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/login_wrapper_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/loginbox.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/menutop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/menutop_hover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/overlay1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/reflect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/reflect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/reflect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/security.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/security.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/state.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/statistic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/statistic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/subnav_btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/success.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/theme.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/users.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/users.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/warnings.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/warnings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/wrapper_bottom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/wrapper_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/wrapper_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/wrapper_bottom2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/wrapper_top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/wrapper_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/wrapper_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/wrapper_top2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/photos/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/AdManage.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Addjobs2.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/htmlfiles/AdminHome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/htmlfiles/AdminLogin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/ie6.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/jquery-ui-1.7.1.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/superfish.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/EmployerHome.jade" afterPath="$PROJECT_DIR$/views/EmployerHome.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JobMensa.iws" />
@@ -396,6 +255,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htmlfiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
