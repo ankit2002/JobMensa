@@ -2,10 +2,147 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83930e3-182b-44e7-81c6-a76de806f50d" name="Default" comment="Design Provided by Tanvir">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" afterPath="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" afterPath="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/photos/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/photos/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/photos/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/accept.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/accept.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/arrows-ffffff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/bg3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/body_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/aurora/body_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/body_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/body_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/body_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/button_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/button_middle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/button_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/cancel.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/clear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/comments.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/comments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/edit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/edu.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/edu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/error.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/error_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/error_ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/folder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/formular_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/formular_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/formular_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/formular_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/formular_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/frame.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ftp.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ftp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/gallery.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_chart_bar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_chart_bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_error.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_flag.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_flag.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_globe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_hourglass.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_hourglass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_page.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_posts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_posts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_settings.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_user.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ico_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/input.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/ins.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/job_source.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/jobslogo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/aurora/login_wrapper.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/login_wrapper_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/login_wrapper_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/loginbox.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/logo3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/menutop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/menutop_hover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/overlay1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/reflect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/reflect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/reflect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/security.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/security.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/state.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/statistic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/statistic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/subnav_btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/success.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/theme.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/theme.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/users.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/warnings.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/warnings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/wrapper_bottom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/wrapper_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/wrapper_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/wrapper_bottom2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/dark/wrapper_top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/wrapper_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/white/wrapper_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/wrapper_top2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img/photos/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/AdManage.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Addjobs2.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/htmlfiles/AdminHome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/htmlfiles/AdminLogin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/ie6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/smoothness/jquery-ui-1.7.1.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cssfiles/admin/css/superfish.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/EmployerHome.jade" afterPath="$PROJECT_DIR$/views/EmployerHome.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cssfiles/main.css" afterPath="$PROJECT_DIR$/public/cssfiles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JobMensa.iws" />
@@ -30,43 +167,81 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.888889">
-              <caret line="95" column="42" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoutesAndDBForEmp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForEmp.js">
+      <file leaf-file-name="AdminHome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/htmlfiles/AdminHome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <element signature="e#0#40#0" expanded="false" />
+                <marker date="1453467372000" expanded="true" signature="1263:1591" placeholder="..." />
+                <marker date="1453467372000" expanded="true" signature="1283:1408" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoutesAndDBForJobs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
+      <file leaf-file-name="Addjobs2.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Addjobs2.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="51" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Addjobs.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/Addjobs.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90604025">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h1.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/h1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployerHome.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/EmployerHome.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobseekerhome.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/jobseekerhome.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="87" column="64" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="275" column="67" selection-start-line="275" selection-start-column="50" selection-end-line="275" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBForAppliedJobs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/DBForAppliedJobs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +300,6 @@
         <option value="$PROJECT_DIR$/views/UpdateSeekerData.jade" />
         <option value="$PROJECT_DIR$/views/ViewAppliedJobs.jade" />
         <option value="$PROJECT_DIR$/server/DBForAppliedJobs.js" />
-        <option value="$PROJECT_DIR$/views/EmployerHome.jade" />
         <option value="$PROJECT_DIR$/views/Addjobs.jade" />
         <option value="$PROJECT_DIR$/views/ViewJobsForEmployer.jade" />
         <option value="$PROJECT_DIR$/views/index.jade" />
@@ -138,6 +312,7 @@
         <option value="$PROJECT_DIR$/public/cssfiles/main.css" />
         <option value="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" />
         <option value="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
+        <option value="$PROJECT_DIR$/views/EmployerHome.jade" />
       </list>
     </option>
   </component>
@@ -220,7 +395,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cssfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobMensa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cssfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,13 +459,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/jsfiles" />
-      <recent name="$PROJECT_DIR$/node_modules" />
-      <recent name="$PROJECT_DIR$/public/cssfiles" />
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/design/css" />
+      <recent name="$PROJECT_DIR$/public/cssfiles" />
+      <recent name="$PROJECT_DIR$/public/htmlfiles" />
+      <recent name="$PROJECT_DIR$/public/jsfiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/cssfiles/admin" />
       <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
@@ -325,17 +541,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1243" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18584071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18584071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24858756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24858756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -531,32 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/EmployerHome.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/jobseekerhome.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53672314">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/DBForAppliedJobs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56349206">
-          <caret line="66" column="46" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/chat.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-59.88889">
@@ -585,14 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.333333">
           <caret line="86" column="77" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.888889">
-          <caret line="275" column="67" selection-start-line="275" selection-start-column="50" selection-end-line="275" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -639,27 +821,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/views/Addjobs.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.888889">
-          <caret line="95" column="42" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.738255">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForEmp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6353468">
           <caret line="87" column="51" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="51" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
@@ -667,12 +839,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Addjobs.jade">
+    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForEmp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90604025">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.950783">
+          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="275" column="67" selection-start-line="275" selection-start-column="50" selection-end-line="275" selection-end-column="67" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/DBForAppliedJobs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/jobseekerhome.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="64" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/EmployerHome.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/htmlfiles/AdminHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <marker date="1453467372000" expanded="true" signature="1263:1591" placeholder="..." />
+            <marker date="1453467372000" expanded="true" signature="1283:1408" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Addjobs2.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cssfiles/admin/css/login/blue/h1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

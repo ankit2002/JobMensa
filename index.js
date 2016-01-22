@@ -92,6 +92,21 @@ app.get('/OpenAddjobs', function (req,res) {
     res.render('Addjobs');
 });
 
+
+app.get('/OpenAddjobs2', function (req,res) {
+    res.render('Addjobs2');
+});
+
+
+app.get('/OpenAddjobs1', function (req,res) {
+    res.render('AdManage');
+});
+
+
+
+
+
+
 app.get('/showJobs',function(req,res){
     res.redirect('fetchDataAddedByEmployer');
 });

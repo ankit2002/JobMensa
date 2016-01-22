@@ -1,0 +1,530 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+   head
+      meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+      title  Kiel Jobs Admin Panel
+      meta(name='description', content='')
+      meta(name='keywords', content='')
+      meta(name='robots', content='index,follow')
+      link(rel='stylesheet', type='text/css', media='all', href='./public/cssfiles/admin/css/style.css')
+      link(rel='Stylesheet', type='text/css', href='./public/cssfiles/admin/css/smoothness/jquery-ui-1.7.1.custom.css')
+      //if IE 7
+        link(rel='stylesheet', href='./public/cssfiles/admin/css/ie.css', type='text/css', media='screen, projection')
+      //if IE 6
+        link(rel='stylesheet', href='./public/cssfiles/admin/css/ie6.css', type='text/css', media='screen, projection')
+      link(rel='stylesheet', type='text/css', href='./public/cssfiles/admin/css/style.css')
+      link(rel='stylesheet', type='text/css', href='./public/cssfiles/admin/css/style.css')
+      link(rel='stylesheet', type='text/css', href='./public/cssfiles/admin/css/superfish.css', media='screen')
+      //if IE
+        style(type='text/css').
+          .clearfix {
+          zoom: 1;     /* triggers hasLayout */
+          display: block;     /* resets display for IE/Win */
+          }  /* Only IE can see inside the conditional comment
+          and read this CSS rule. Don't ever use a normal HTML
+          comment inside the CC or it will close prematurely. */
+      // JavaScript
+      script(type='text/javascript', src='js/jquery-1.3.2.min.js')
+      script(type='text/javascript', src='js/jquery-ui-1.7.1.custom.min.js')
+      script(type='text/javascript', src='js/hoverIntent.js')
+      script(type='text/javascript', src='js/superfish.js')
+      script(type='text/javascript').
+         // initialise plugins
+         jQuery(function(){
+            jQuery('ul.sf-menu').superfish();
+         });
+      script(type='text/javascript', src='js/excanvas.pack.js')
+      script(type='text/javascript', src='js/jquery.flot.pack.js')
+      script(type='text/javascript', src='markitup/jquery.markitup.pack.js')
+      script(type='text/javascript', src='markitup/sets/default/set.js')
+      script(type='text/javascript', src='js/custom.js')
+      //if IE
+        script(language='javascript', type='text/javascript', src='excanvas.pack.js')
+      // Refresh Dashboard
+      // - End Refresh
+      style.
+         .mydiv
+         {
+            position: fixed; top:-20; left: 0; width: 260px; float:left; z-index:1000;
+         }
+   body
+      #container.container
+         #header
+            #profile_info
+               img#avatar(src='./public/images/img/avatar.jpg', alt='avatar')
+               p
+                  | Welcome
+                  strong
+                     font(color='#FF0000') Admin
+                  | .
+                  a(href='/AdminLogin.html') Log out?
+               p
+                  | System messages: 3.
+                  a(href='#') Read?
+               p.last_login Last login: 21:03 12.05.2016
+            h1
+               a(title='CSS Junction', href='#')
+                  img(src='./public/images/logo.png', width='200px')
+               br
+               small Germany Largest Jobsite
+         // end header
+         #content
+            // <a href="#" id="visit" class="right">Visit site</a>
+            a#visit.right(href='/AdminLogin.html') Logout
+         #content_main.clearfix
+            #main_panel_container.left
+               #dashboard
+                  h2.ico_mug Dashboard
+                  .clearfix
+               // end #dashboard
+               #shortcuts.clearfix
+                  h2.ico_mug Panel shortcuts
+               ul
+                  li.first_li
+                     a(href='')
+                        img(src='./public/images/img/theme.jpg', alt='themes')
+                        span Invoice Print
+                  li
+                     a(href='/OpenAddjobs1')
+                        img(src='./public/images/img/statistic.jpg', alt='statistics')
+                        span Manage Adds
+                  li
+                     a(href='#')
+                        img(src='./public/images/img/ftp.jpg', alt='FTP')
+                        span CV Bank
+                  li
+                     a(href='/OpenAddjobs2')
+                        img(src='./public/images/img/users.jpg', alt='Users')
+                        span Priority jobs
+                  li
+                     a(href='#')
+                        img(src='./public/images/img/comments.jpg', alt='Comments')
+                        span Add Training
+                  li
+                     a(href='#')
+                        img(src='./public/images/img/gallery.jpg', alt='Gallery')
+                        span Gallery
+                  li
+                     a(href='#')
+                        img(src='./public/images/img/security.jpg', alt='Security')
+                        span Security
+
+               // end #shortcuts
+            #sidebar.right
+               h2.ico_mug  Category Sidebar
+               img(src='./public/images/img/1.png', alt='cancel')
+            // end #sidebar
+         // end #content_main
+         #tabledata.section
+            h2.ico_mug  Add Priority Jobs
+
+               table(width='660', border='0', cellspacing='0', cellpadding='0')
+                  tr
+                     td.azjtabNormal(width='600', height='57')
+                        div(align='justify')
+                           br
+                           form(action='/savejobs', method='post')
+                              table(width='600', align='center', border='0', cellspacing='1', cellpadding='0', style='margin-bottom:1px;')
+                                 tr
+                                    td(colspan='4' align='center')
+                                       h2 Add Jobs
+                                 tr(valign='top')
+                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') Job Position Title
+                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff')
+                                       input(type='text', name='job_position_title')
+                                 tr(valign='top')
+                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') Job Field
+                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff')
+                                       input(type='text', name='job_field')
+                                 tr(valign='top')
+                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') Job Description
+                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff')
+                                       textarea(name='job_description')
+                                 tr(valign='top')
+                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') Job Roles and Responsibility
+                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff')
+                                       textarea(name='job_role_responsibility')
+                                 tr(valign='top')
+                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') Mobile No.
+                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff')
+                                       input(type='text', name='job_mobile_no')
+                                 tr(valign='top')
+                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') City
+                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff')
+                                       input(type='text', name='job_city')
+                                 tr(valign='top')
+                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') state
+                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff')
+                                       input(type='text', name='job_state')
+                                 tr
+                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') Country
+                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff')
+                                       select(name='country')
+                                          option(value='') Country...
+                                          option(value='AF') Afghanistan
+                                          option(value='AL') Albania
+                                          option(value='DZ') Algeria
+                                          option(value='AS') American Samoa
+                                          option(value='AD') Andorra
+                                          option(value='AG') Angola
+                                          option(value='AI') Anguilla
+                                          option(value='AG') Antigua & Barbuda
+                                          option(value='AR') Argentina
+                                          option(value='AA') Armenia
+                                          option(value='AW') Aruba
+                                          option(value='AU') Australia
+                                          option(value='AT') Austria
+                                          option(value='AZ') Azerbaijan
+                                          option(value='BS') Bahamas
+                                          option(value='BH') Bahrain
+                                          option(value='BD') Bangladesh
+                                          option(value='BB') Barbados
+                                          option(value='BY') Belarus
+                                          option(value='BE') Belgium
+                                          option(value='BZ') Belize
+                                          option(value='BJ') Benin
+                                          option(value='BM') Bermuda
+                                          option(value='BT') Bhutan
+                                          option(value='BO') Bolivia
+                                          option(value='BL') Bonaire
+                                          option(value='BA') Bosnia & Herzegovina
+                                          option(value='BW') Botswana
+                                          option(value='BR') Brazil
+                                          option(value='BC') British Indian Ocean Ter
+                                          option(value='BN') Brunei
+                                          option(value='BG') Bulgaria
+                                          option(value='BF') Burkina Faso
+                                          option(value='BI') Burundi
+                                          option(value='KH') Cambodia
+                                          option(value='CM') Cameroon
+                                          option(value='CA') Canada
+                                          option(value='IC') Canary Islands
+                                          option(value='CV') Cape Verde
+                                          option(value='KY') Cayman Islands
+                                          option(value='CF') Central African Republic
+                                          option(value='TD') Chad
+                                          option(value='CD') Channel Islands
+                                          option(value='CL') Chile
+                                          option(value='CN') China
+                                          option(value='CI') Christmas Island
+                                          option(value='CS') Cocos Island
+                                          option(value='CO') Colombia
+                                          option(value='CC') Comoros
+                                          option(value='CG') Congo
+                                          option(value='CK') Cook Islands
+                                          option(value='CR') Costa Rica
+                                          option(value='CT') Cote D'Ivoire
+                                          option(value='HR') Croatia
+                                          option(value='CU') Cuba
+                                          option(value='CB') Curacao
+                                          option(value='CY') Cyprus
+                                          option(value='CZ') Czech Republic
+                                          option(value='DK') Denmark
+                                          option(value='DJ') Djibouti
+                                          option(value='DM') Dominica
+                                          option(value='DO') Dominican Republic
+                                          option(value='TM') East Timor
+                                          option(value='EC') Ecuador
+                                          option(value='EG') Egypt
+                                          option(value='SV') El Salvador
+                                          option(value='GQ') Equatorial Guinea
+                                          option(value='ER') Eritrea
+                                          option(value='EE') Estonia
+                                          option(value='ET') Ethiopia
+                                          option(value='FA') Falkland Islands
+                                          option(value='FO') Faroe Islands
+                                          option(value='FJ') Fiji
+                                          option(value='FI') Finland
+                                          option(value='FR') France
+                                          option(value='GF') French Guiana
+                                          option(value='PF') French Polynesia
+                                          option(value='FS') French Southern Ter
+                                          option(value='GA') Gabon
+                                          option(value='GM') Gambia
+                                          option(value='GE') Georgia
+                                          option(value='DE') Germany
+                                          option(value='GH') Ghana
+                                          option(value='GI') Gibraltar
+                                          option(value='GB') Great Britain
+                                          option(value='GR') Greece
+                                          option(value='GL') Greenland
+                                          option(value='GD') Grenada
+                                          option(value='GP') Guadeloupe
+                                          option(value='GU') Guam
+                                          option(value='GT') Guatemala
+                                          option(value='GN') Guinea
+                                          option(value='GY') Guyana
+                                          option(value='HT') Haiti
+                                          option(value='HW') Hawaii
+                                          option(value='HN') Honduras
+                                          option(value='HK') Hong Kong
+                                          option(value='HU') Hungary
+                                          option(value='IS') Iceland
+                                          option(value='IN') India
+                                          option(value='ID') Indonesia
+                                          option(value='IA') Iran
+                                          option(value='IQ') Iraq
+                                          option(value='IR') Ireland
+                                          option(value='IM') Isle of Man
+                                          option(value='IL') Israel
+                                          option(value='IT') Italy
+                                          option(value='JM') Jamaica
+                                          option(value='JP') Japan
+                                          option(value='JO') Jordan
+                                          option(value='KZ') Kazakhstan
+                                          option(value='KE') Kenya
+                                          option(value='KI') Kiribati
+                                          option(value='NK') Korea North
+                                          option(value='KS') Korea South
+                                          option(value='KW') Kuwait
+                                          option(value='KG') Kyrgyzstan
+                                          option(value='LA') Laos
+                                          option(value='LV') Latvia
+                                          option(value='LB') Lebanon
+                                          option(value='LS') Lesotho
+                                          option(value='LR') Liberia
+                                          option(value='LY') Libya
+                                          option(value='LI') Liechtenstein
+                                          option(value='LT') Lithuania
+                                          option(value='LU') Luxembourg
+                                          option(value='MO') Macau
+                                          option(value='MK') Macedonia
+                                          option(value='MG') Madagascar
+                                          option(value='MY') Malaysia
+                                          option(value='MW') Malawi
+                                          option(value='MV') Maldives
+                                          option(value='ML') Mali
+                                          option(value='MT') Malta
+                                          option(value='MH') Marshall Islands
+                                          option(value='MQ') Martinique
+                                          option(value='MR') Mauritania
+                                          option(value='MU') Mauritius
+                                          option(value='ME') Mayotte
+                                          option(value='MX') Mexico
+                                          option(value='MI') Midway Islands
+                                          option(value='MD') Moldova
+                                          option(value='MC') Monaco
+                                          option(value='MN') Mongolia
+                                          option(value='MS') Montserrat
+                                          option(value='MA') Morocco
+                                          option(value='MZ') Mozambique
+                                          option(value='MM') Myanmar
+                                          option(value='NA') Nambia
+                                          option(value='NU') Nauru
+                                          option(value='NP') Nepal
+                                          option(value='AN') Netherland Antilles
+                                          option(value='NL') Netherlands (Holland, Europe)
+                                          option(value='NV') Nevis
+                                          option(value='NC') New Caledonia
+                                          option(value='NZ') New Zealand
+                                          option(value='NI') Nicaragua
+                                          option(value='NE') Niger
+                                          option(value='NG') Nigeria
+                                          option(value='NW') Niue
+                                          option(value='NF') Norfolk Island
+                                          option(value='NO') Norway
+                                          option(value='OM') Oman
+                                          option(value='PK') Pakistan
+                                          option(value='PW') Palau Island
+                                          option(value='PS') Palestine
+                                          option(value='PA') Panama
+                                          option(value='PG') Papua New Guinea
+                                          option(value='PY') Paraguay
+                                          option(value='PE') Peru
+                                          option(value='PH') Philippines
+                                          option(value='PO') Pitcairn Island
+                                          option(value='PL') Poland
+                                          option(value='PT') Portugal
+                                          option(value='PR') Puerto Rico
+                                          option(value='QA') Qatar
+                                          option(value='ME') Republic of Montenegro
+                                          option(value='RS') Republic of Serbia
+                                          option(value='RE') Reunion
+                                          option(value='RO') Romania
+                                          option(value='RU') Russia
+                                          option(value='RW') Rwanda
+                                          option(value='NT') St Barthelemy
+                                          option(value='EU') St Eustatius
+                                          option(value='HE') St Helena
+                                          option(value='KN') St Kitts-Nevis
+                                          option(value='LC') St Lucia
+                                          option(value='MB') St Maarten
+                                          option(value='PM') St Pierre & Miquelon
+                                          option(value='VC') St Vincent & Grenadines
+                                          option(value='SP') Saipan
+                                          option(value='SO') Samoa
+                                          option(value='AS') Samoa American
+                                          option(value='SM') San Marino
+                                          option(value='ST') Sao Tome & Principe
+                                          option(value='SA') Saudi Arabia
+                                          option(value='SN') Senegal
+                                          option(value='RS') Serbia
+                                          option(value='SC') Seychelles
+                                          option(value='SL') Sierra Leone
+                                          option(value='SG') Singapore
+                                          option(value='SK') Slovakia
+                                          option(value='SI') Slovenia
+                                          option(value='SB') Solomon Islands
+                                          option(value='OI') Somalia
+                                          option(value='ZA') South Africa
+                                          option(value='ES') Spain
+                                          option(value='LK') Sri Lanka
+                                          option(value='SD') Sudan
+                                          option(value='SR') Suriname
+                                          option(value='SZ') Swaziland
+                                          option(value='SE') Sweden
+                                          option(value='CH') Switzerland
+                                          option(value='SY') Syria
+                                          option(value='TA') Tahiti
+                                          option(value='TW') Taiwan
+                                          option(value='TJ') Tajikistan
+                                          option(value='TZ') Tanzania
+                                          option(value='TH') Thailand
+                                          option(value='TG') Togo
+                                          option(value='TK') Tokelau
+                                          option(value='TO') Tonga
+                                          option(value='TT') Trinidad & Tobago
+                                          option(value='TN') Tunisia
+                                          option(value='TR') Turkey
+                                          option(value='TU') Turkmenistan
+                                          option(value='TC') Turks & Caicos Is
+                                          option(value='TV') Tuvalu
+                                          option(value='UG') Uganda
+                                          option(value='UA') Ukraine
+                                          option(value='AE') United Arab Emirates
+                                          option(value='GB') United Kingdom
+                                          option(value='US') United States of America
+                                          option(value='UY') Uruguay
+                                          option(value='UZ') Uzbekistan
+                                          option(value='VU') Vanuatu
+                                          option(value='VS') Vatican City State
+                                          option(value='VE') Venezuela
+                                          option(value='VN') Vietnam
+                                          option(value='VB') Virgin Islands (Brit)
+                                          option(value='VA') Virgin Islands (USA)
+                                          option(value='WK') Wake Island
+                                          option(value='WF') Wallis & Futana Is
+                                          option(value='YE') Yemen
+                                          option(value='ZR') Zaire
+                                          option(value='ZM') Zambia
+                                          option(value='ZW') Zimbabwe
+
+
+
+
+
+                                          tr
+                                             td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff')  Logo
+                                             td
+                                                input(type='file', name='im', <='', td = '')
+
+
+
+
+                                 tr(valign='top')
+                                    td.azjLebels(height='23', align='center', bgcolor='#ffffff' colspan='2')
+
+
+
+
+                                       input(type='submit', value='submit')
+
+         #panels.clearfix
+            .panel.photo.left
+               h2.ico_mug Photo gallery
+               ul.clearfix
+                  li
+                     img(src='./public/images/img/photos/1.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/2.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/3.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/2.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/1.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/2.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/1.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/3.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+               button Add photo
+            // end #photo
+            .panel.todo.left
+               h2.ico_mug To do list
+               p Things to do:
+               ul
+                  li.even
+                     input.noborder(type='checkbox', value='', name='check')
+                     |                     Create more theme fot themeforest
+                     span.date July 24, 2016
+                  li.odd
+                     input.noborder(type='checkbox', value='', name='check')
+                     |                     Sell a looot fo themes
+                     span.date July 24, 2016
+                  li.even
+                     input.noborder(type='checkbox', value='', name='check')
+                     |                     Learn ruby on rails
+                     span.date July 24, 2016
+                  li.odd
+                     input.noborder(type='checkbox', value='', name='check')
+                     |                     Be a better man
+                     span.date July 24, 2016
+               button Add to do
+            // end #todo
+            .panel.calendar.left
+               h2.ico_mug Callendar
+               #datepicker
+               button Add event
+            // end #calendar
+         // end #panels
+         #dialog(title='Welcome')
+            p
+               | Welcome
+               strong
+                  font(color='#FF0000')  Admin
+               |  to Kiel Job Mensa Admin Panel.
+         // end #dialog [if you don't want this, delete whole div and 6th line i custom.js
+      // end #content
+      // end container

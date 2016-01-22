@@ -1,0 +1,306 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Kiel Jobs Admin Panel</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="./public/cssfiles/admin/css/style.css" />
+    <link rel="Stylesheet" type="text/css" href="./public/cssfiles/admin/css/smoothness/jquery-ui-1.7.1.custom.css"  />
+    <!--[if IE 7]><link rel="stylesheet" href="./public/cssfiles/admin/css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" href="./public/cssfiles/admin/css/ie6.css" type="text/css" media="screen, projection" /><![endif]-->
+    <link rel="stylesheet" type="text/css" href="./public/cssfiles/admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./public/cssfiles/admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./public/cssfiles/admin/css/superfish.css" media="screen">
+    <!--[if IE]>
+    <style type="text/css">
+        .clearfix {
+            zoom: 1;     /* triggers hasLayout */
+            display: block;     /* resets display for IE/Win */
+        }  /* Only IE can see inside the conditional comment
+		    and read this CSS rule. Don't ever use a normal HTML
+		    comment inside the CC or it will close prematurely. */
+    </style>
+    <![endif]-->
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
+    <script type="text/javascript" src="js/hoverIntent.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript">
+        // initialise plugins
+        jQuery(function(){
+            jQuery('ul.sf-menu').superfish();
+        });
+
+    </script>
+    <script type="text/javascript" src="js/excanvas.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.flot.pack.js"></script>
+    <script type="text/javascript" src="markitup/jquery.markitup.pack.js"></script>
+    <script type="text/javascript" src="markitup/sets/default/set.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <!--[if IE]><script language="javascript" type="text/javascript" src="excanvas.pack.js"></script><![endif]-->
+
+
+
+    <!-- Refresh Dashboard -->
+
+
+
+    <!--- End Refresh -->
+
+
+    <style>
+        .mydiv
+        {
+
+            position: fixed; top:-20; left: 0; width: 260px; float:left; z-index:1000;
+        }
+
+    </style>
+</head>
+<body>
+
+
+
+<div class="container" id="container">
+    <div  id="header">
+        <div id="profile_info">
+            <img src="./public/images/img/avatar.jpg" id="avatar" alt="avatar" />
+            <p>Welcome <strong><font color="#FF0000">Admin</font></strong>. <a href="/AdminLogin.html">Log out?</a></p>
+            <p>System messages: 3. <a href="#">Read?</a></p>
+            <p class="last_login">Last login: 21:03 12.05.2016</p>
+        </div>
+          <h1>
+            <a title="CSS Junction" href="#"><img src="./public/images/logo.png" width="200px" /></a> <br>
+            <small>Germany Largest Jobsite</small>
+        </h1>
+
+    </div><!-- end header -->
+    <div id="content" >
+
+        <!--<a href="#" id="visit" class="right">Visit site</a>-->
+        <a href="/AdminLogin.html" id="visit" class="right">Logout</a>
+    </div>
+    <div id="content_main" class="clearfix">
+        <div id="main_panel_container" class="left">
+            <div id="dashboard">
+                <h2 class="ico_mug">Dashboard </h2>
+                <div class="clearfix">
+
+                </div>
+            </div><!-- end #dashboard -->
+
+
+
+            <div id="shortcuts" class="clearfix">
+                <h2 class="ico_mug">Panel shortcuts</h2>
+                <ul>
+                    <li class="first_li"><a href=""><img src="./public/images/img/theme.jpg" alt="themes" /><span>Invoice Print</span></a></li>
+                    <li><a href="/OpenAddjobs1"><img src="./public/images/img/statistic.jpg" alt="statistics" /><span>Manage Adds</span></a></li>
+                    <li><a href="#"><img src="./public/images/img/ftp.jpg" alt="FTP" /><span>CV Bank</span></a></li>
+                    <li><a href="/OpenAddjobs2"><img src="./public/images/img/users.jpg" alt="Users" /><span>Priority jobs</span></a></li>
+                    <li><a href="#"><img src="./public/images/img/comments.jpg" alt="Comments" /><span>Add Training</span></a></li>
+                    <li><a href="#"><img src="./public/images/img/gallery.jpg" alt="Gallery" /><span>Gallery</span></a></li>
+                    <li><a href="#"><img src="./public/images/img/security.jpg" alt="Security" /><span>Security</span></a></li>
+
+                </ul>
+            </div><!-- end #shortcuts -->
+        </div>
+        <div id="sidebar" class="right">
+            <h2 class="ico_mug"> Category Sidebar </h2>
+            <img src="./public/images/img/1.png" alt="cancel"/>
+
+        </div><!-- end #sidebar -->
+    </div><!-- end #content_main -->
+
+
+    <div id="tabledata" class="section">
+        <h2 class="ico_mug">Priority Jobs</h2>
+        <table id="table">
+            <thead>
+            <tr>
+                <th><input type="checkbox" class="noborder" /></th>
+                <th>Date </th>
+                <th>Company Name</th>
+                <th>Job Title</th>
+                <th>Actions</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="table_check"><input type="checkbox" class="noborder" /></td>
+                <td class="table_date">April 23, 2009</td>
+                <td class="table_title"><a href="#">Something like post </a></td>
+                <td><a href="#">Webdesign, Life, Custom</a></td>
+                <td><a href="#"><img src="./public/images/img/accept.jpg" alt="accepted"/></a><a href="#"><img src="./public/images/img/cancel.jpg" alt="cancel"/></a><a href="#"><img src="./public/images//img/folder.jpg" alt="folder"/></a><a href="#"><img src="./public/images//img/edit.jpg" alt="edit"/></a></td>
+                <td><span class="approved">Approved</span></td>
+            </tr>
+            <tr>
+                <td class="table_check"><input type="checkbox" class="noborder" /></td>
+                <td class="table_date">April 22, 2009</td>
+                <td class="table_title"><a href="#">Another thing </a></td>
+                <td><a href="#">Webdesign, Life, Custom</a></td>
+                <td><a href="#"><img src="./public/images/img/accept.jpg" alt="accepted"/></a><a href="#"><img src="./public/images/img/cancel.jpg" alt="cancel"/></a><a href="#"><img src="./public/images//img/folder.jpg" alt="folder"/></a><a href="#"><img src="./public/images//img/edit.jpg" alt="edit"/></a></td>
+                <td><span class="approved">Approved</span></td>
+            </tr>
+            <tr>
+                <td class="table_check"><input type="checkbox" class="noborder" /></td>
+                <td class="table_date">April 21, 2009</td>
+                <td class="table_title"><a href="#">And this is also a post </a></td>
+                <td><a href="#">Webdesign, Life, Custom</a></td>
+                <td><a href="#"><img src="./public/images/img/accept.jpg" alt="accepted"/></a><a href="#"><img src="./public/images/img/cancel.jpg" alt="cancel"/></a><a href="#"><img src="./public/images//img/folder.jpg" alt="folder"/></a><a href="#"><img src="./public/images//img/edit.jpg" alt="edit"/></a></td>
+                <td><span class="ico_pending">Pending</span></td>
+            </tr>
+            <tr>
+                <td class="table_check"><input type="checkbox" class="noborder" /></td>
+                <td class="table_date">April 21, 2009</td>
+                <td class="table_title"><a href="#">And this is also a post </a></td>
+                <td><a href="#">Webdesign, Life, Custom</a></td>
+                <td><a href="#"><img src="./public/images/img/accept.jpg" alt="accepted"/></a><a href="#"><img src="./public/images/img/cancel.jpg" alt="cancel"/></a><a href="#"><img src="./public/images//img/folder.jpg" alt="folder"/></a><a href="#"><img src="./public/images//img/edit.jpg" alt="edit"/></a></td>
+                <td><span class="ico_pending">Pending</span></td>
+            </tr>
+            <tr>
+                <td class="table_check"><input type="checkbox" class="noborder"  /></td>
+                <td class="table_date">April 21, 2009</td>
+                <td class="table_title"><a href="#">And this is also a post </a></td>
+                <td><a href="#">Webdesign, Life, Custom</a></td>
+                <td><a href="#"><img src="./public/images/img/accept.jpg" alt="accepted"/></a><a href="#"><img src="./public/images/img/cancel.jpg" alt="cancel"/></a><a href="#"><img src="./public/images//img/folder.jpg" alt="folder"/></a><a href="#"><img src="./public/images//img/edit.jpg" alt="edit"/></a></td>
+                <td><span class="ico_pending">Pending</span></td>
+            </tr>
+            <tr>
+                <td class="table_check"><input type="checkbox" class="noborder"  /></td>
+                <td class="table_date">April 21, 2009</td>
+                <td class="table_title"><a href="#">And this is also a post </a></td>
+                <td><a href="#">Webdesign, Life, Custom</a></td>
+                <td><a href="#"><img src="./public/images/img/accept.jpg" alt="accepted"/></a><a href="#"><img src="./public/images/img/cancel.jpg" alt="cancel"/></a><a href="#"><img src="./public/images//img/folder.jpg" alt="folder"/></a><a href="#"><img src="./public/images//img/edit.jpg" alt="edit"/></a></td>
+                <td><span class="ico_pending">Pending</span></td>
+            </tr>
+            </tbody>
+        </table>
+        <div id="table_options" class="clearfix">
+
+            <ul>
+                <li><a href="#">Select All</a></li>
+                <li><a href="#">Select None</a></li>
+                <li><label>	Action:<select id="kategoria" name="kategoria">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                </select>
+                </label></li>
+            </ul>
+
+
+        </div>
+        <div class="pagination">
+            <span class="pages">Page 1 of 3&#8201;</span>
+            <span class="current">1</span>
+            <a href="#" title="2">2</a>
+            <a href="#" title="3">3</a>
+            <a href="#" >&raquo;</a>
+        </div>
+    </div> <!-- end #tabledata -->
+    <div class="section">
+
+        <!--<h1>Header h1</h1>
+        <h2>Header h2</h2>
+        <h3>Header h3</h3>
+        <h4>Header h4</h4>
+        <h5>Header h5</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Nam sapien dolor</a>, ultrices a rutrum quis, convallis nec nisi. <del>Morbi lorem est</del>, pellentesque ac suscipit ut, fringilla sit amet elit. Cras blandit turpis vitae augue laoreet gravida. Suspendisse potenti. Nullam vitae dui quam. Cras fringilla tincidunt metus venenatis suscipit. Vestibulum feugiat felis tincidunt felis fermentum fringilla. In a ante metus. Nullam consequat hendrerit orci quis volutpat. Etiam a libero nunc. Sed convallis suscipit lectus quis hendrerit. Aliquam et elementum risus. Proin at feugiat lacus. Suspendisse non odio ante, et porta turpis. Integer bibendum augue at nisi porta vel luctus nisl fringilla. Donec in libero erat.</p>
+        <ul>
+            <li>Element of unordered list</li>
+            <li>Element of unordered list</li>
+            <li>Element of unordered list</li>
+        </ul>
+        <ol>
+            <li>Element of ordered list</li>
+            <li>Element of ordered list</li>
+            <li>Element of ordered list</li>
+        </ol>
+        <p class="info">Info paragraph. That's <em>em</em> and here is <strong>strong</strong>. And some <small>small text</small></p>
+        <hr />
+
+        <form action="post" method="post" accept-charset="utf-8">
+            <fieldset>
+                <legend><span>Internet Browsers</span></legend>
+                  <input type="radio" name="browser" class="noborder" />Internet Explorer<br />
+                  <input type="radio" name="browser" class="noborder" />Netscape Navigator<br />
+                  <input type="radio" name="browser" class="noborder" />Opera
+                  <br />  <br />
+                <label><input type="text" value="Short" /></label>
+              <label><input type="text" value="Medium" size="60" /></label>
+              <label><input type="text" value="Long" size="90" /></label>
+
+              <br /> <input type="submit" value="Continue" />
+              <br />  <button>This is a button</button>
+
+         </fieldset>
+
+        </form>-->
+
+    </div><!-- end #section -->
+
+    <div id="panels" class="clearfix">
+        <div class="panel photo left">
+            <h2 class="ico_mug">Photo gallery</h2>
+            <ul class="clearfix">
+                <li><img src="./public/images/img/photos/1.jpg" alt="photo"/><span><a href="#"><img src="./public/images/img/accept.jpg" alt="accept"/></a><a href="#"><img src="./public/images/img/cancel.jpg"  alt="deny"/></a></span></li>
+                <li><img src="./public/images/img/photos/2.jpg" alt="photo"/><span><a href="#"><img src="./public/images/img/accept.jpg" alt="accept"/></a><a href="#"><img src="./public/images/img/cancel.jpg"  alt="deny"/></a></span></li>
+                <li><img src="./public/images/img/photos/3.jpg" alt="photo"/><span><a href="#"><img src="./public/images/img/accept.jpg" alt="accept"/></a><a href="#"><img src="./public/images/img/cancel.jpg"  alt="deny"/></a></span></li>
+                <li><img src="./public/images/img/photos/2.jpg" alt="photo"/><span><a href="#"><img src="./public/images/img/accept.jpg" alt="accept"/></a><a href="#"><img src="./public/images/img/cancel.jpg"  alt="deny"/></a></span></li>
+                <li><img src="./public/images/img/photos/1.jpg" alt="photo"/><span><a href="#"><img src="./public/images/img/accept.jpg" alt="accept"/></a><a href="#"><img src="./public/images/img/cancel.jpg"  alt="deny"/></a></span></li>
+                <li><img src="./public/images/img/photos/2.jpg" alt="photo"/><span><a href="#"><img src="./public/images/img/accept.jpg" alt="accept"/></a><a href="#"><img src="./public/images/img/cancel.jpg"  alt="deny"/></a></span></li>
+                <li><img src="./public/images/img/photos/1.jpg" alt="photo"/><span><a href="#"><img src="./public/images/img/accept.jpg" alt="accept"/></a><a href="#"><img src="./public/images/img/cancel.jpg"  alt="deny"/></a></span></li>
+                <li><img src="./public/images/img/photos/3.jpg" alt="photo"/><span><a href="#"><img src="./public/images/img/accept.jpg" alt="accept"/></a><a href="#"><img src="./public/images/img/cancel.jpg"  alt="deny"/></a></span></li>
+            </ul>
+            <button>Add photo</button>
+        </div><!-- end #photo -->
+        <div class="panel todo left">
+            <h2 class="ico_mug">To do list</h2>
+            <p>Things to do:</p>
+            <ul>
+                <li class="even"><input type="checkbox" class="noborder"  value="" name="check"/>
+                    Create more theme fot themeforest
+                    <span class="date">July 24, 2016</span>
+                </li>
+                <li class="odd"><input type="checkbox" class="noborder"  value="" name="check"/>
+                    Sell a looot fo themes
+                    <span class="date">July 24, 2016</span>
+                </li>
+                <li class="even"><input type="checkbox" class="noborder" value="" name="check"/>
+                    Learn ruby on rails
+                    <span class="date">July 24, 2016</span>
+                </li>
+                <li class="odd"><input type="checkbox" class="noborder" value="" name="check"/>
+                    Be a better man
+                    <span class="date">July 24, 2016</span>
+                </li>
+            </ul>
+            <button>Add to do</button>
+        </div><!-- end #todo -->
+        <div class="panel calendar left">
+            <h2 class="ico_mug">Callendar</h2>
+            <div id="datepicker"></div>
+            <button>Add event</button>
+        </div><!-- end #calendar -->
+    </div><!-- end #panels -->
+    <div id="dialog" title="Welcome">
+        <p> Welcome  <strong><font color="#FF0000"><? echo $_SESSION['user_admin']; ?></font></strong> to Kiel Job Mensa Admin Panel.</p>
+    </div><!-- end #dialog [if you don't want this, delete whole div and 6th line i custom.js -->
+
+
+</div><!-- end #content -->
+
+
+</div><!-- end container -->
+
+</body>
+</html>

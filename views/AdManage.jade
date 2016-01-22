@@ -1,0 +1,316 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+   head
+      meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+      title  Kiel Jobs Admin Panel
+      meta(name='description', content='')
+      meta(name='keywords', content='')
+      meta(name='robots', content='index,follow')
+      link(rel='stylesheet', type='text/css', media='all', href='./public/cssfiles/admin/css/style.css')
+      link(rel='Stylesheet', type='text/css', href='./public/cssfiles/admin/css/smoothness/jquery-ui-1.7.1.custom.css')
+      //if IE 7
+        link(rel='stylesheet', href='./public/cssfiles/admin/css/ie.css', type='text/css', media='screen, projection')
+      //if IE 6
+        link(rel='stylesheet', href='./public/cssfiles/admin/css/ie6.css', type='text/css', media='screen, projection')
+      link(rel='stylesheet', type='text/css', href='./public/cssfiles/admin/css/style.css')
+      link(rel='stylesheet', type='text/css', href='./public/cssfiles/admin/css/style.css')
+      link(rel='stylesheet', type='text/css', href='./public/cssfiles/admin/css/superfish.css', media='screen')
+      //if IE
+        style(type='text/css').
+          .clearfix {
+          zoom: 1;     /* triggers hasLayout */
+          display: block;     /* resets display for IE/Win */
+          }  /* Only IE can see inside the conditional comment
+          and read this CSS rule. Don't ever use a normal HTML
+          comment inside the CC or it will close prematurely. */
+      // JavaScript
+      script(type='text/javascript', src='js/jquery-1.3.2.min.js')
+      script(type='text/javascript', src='js/jquery-ui-1.7.1.custom.min.js')
+      script(type='text/javascript', src='js/hoverIntent.js')
+      script(type='text/javascript', src='js/superfish.js')
+      script(type='text/javascript').
+         // initialise plugins
+         jQuery(function(){
+            jQuery('ul.sf-menu').superfish();
+         });
+      script(type='text/javascript', src='js/excanvas.pack.js')
+      script(type='text/javascript', src='js/jquery.flot.pack.js')
+      script(type='text/javascript', src='markitup/jquery.markitup.pack.js')
+      script(type='text/javascript', src='markitup/sets/default/set.js')
+      script(type='text/javascript', src='js/custom.js')
+      //if IE
+        script(language='javascript', type='text/javascript', src='excanvas.pack.js')
+      // Refresh Dashboard
+      // - End Refresh
+      style.
+         .mydiv
+         {
+            position: fixed; top:-20; left: 0; width: 260px; float:left; z-index:1000;
+         }
+   body
+      #container.container
+         #header
+            #profile_info
+               img#avatar(src='./public/images/img/avatar.jpg', alt='avatar')
+               p
+                  | Welcome
+                  strong
+                     font(color='#FF0000') Admin
+                  | .
+                  a(href='/AdminLogin.html') Log out?
+               p
+                  | System messages: 3.
+                  a(href='#') Read?
+               p.last_login Last login: 21:03 12.05.2016
+            h1
+               a(title='CSS Junction', href='#')
+                  img(src='./public/images/logo.png', width='200px')
+               br
+               small Germany Largest Jobsite
+         // end header
+         #content
+            // <a href="#" id="visit" class="right">Visit site</a>
+            a#visit.right(href='/AdminLogin.html') Logout
+         #content_main.clearfix
+            #main_panel_container.left
+               #dashboard
+                  h2.ico_mug Dashboard
+                  .clearfix
+               // end #dashboard
+               #shortcuts.clearfix
+                  h2.ico_mug Panel shortcuts
+               ul
+                  li.first_li
+                     a(href='')
+                        img(src='./public/images/img/theme.jpg', alt='themes')
+                        span Invoice Print
+                  li
+                     a(href='/OpenAddjobs1')
+                        img(src='./public/images/img/statistic.jpg', alt='statistics')
+                        span Manage Adds
+                  li
+                     a(href='#')
+                        img(src='./public/images/img/ftp.jpg', alt='FTP')
+                        span CV Bank
+                  li
+                     a(href='/OpenAddjobs2')
+                        img(src='./public/images/img/users.jpg', alt='Users')
+                        span Priority jobs
+                  li
+                     a(href='#')
+                        img(src='./public/images/img/comments.jpg', alt='Comments')
+                        span Add Training
+                  li
+                     a(href='#')
+                        img(src='./public/images/img/gallery.jpg', alt='Gallery')
+                        span Gallery
+                  li
+                     a(href='#')
+                        img(src='./public/images/img/security.jpg', alt='Security')
+                        span Security
+
+               // end #shortcuts
+            #sidebar.right
+               h2.ico_mug  Category Sidebar
+               img(src='./public/images/img/1.png', alt='cancel')
+            // end #sidebar
+         // end #content_main
+         #tabledata.section
+            h2.ico_mug  Add New Advertise
+            form#Form(action='action/UploadAd.php', method='POST', enctype='multipart/form-data')
+               table#table.shadow(width='80%', height='100%', align='center', style='border: 1px solid #9e9f9e;font-size:11px;font-family: verdana; background:url(img/1.gif) repeat')
+                  tr
+                     td
+                        | Company Name:
+                        sup
+                           span(style='color:red') *
+                     td
+                        input.required(type='text', name='company', value='', size='35')
+                  tr
+                     td
+                        | Position:
+                        sup
+                           span(style='color:red') *
+                     td
+                        select.required(name='position')
+                           option(value='', selected='') Select
+                           option(value='TopLeft') TopLeft
+                           option(value='TopRight') TopRight
+                           option(value='Right') Right
+                           option(value='Promotions') Promotions
+                           option(value='PromotionsUp') Promotions TOP
+                           option(value='PromotionsDown') Promotions Bottom
+                           option(value='Corporate') Corporate Add
+                           option(value='BeLeft') Be With Left
+                           option(value='BeRight') Be With Right
+                  tr
+                     td
+                        | Page:
+                        sup
+                           span(style='color:red') *
+                     td
+                        select.required(name='page')
+                           option(value='', selected='') Select
+                  tr
+                     td
+                        | File:
+                        sup
+                           span(style='color:red') *
+                     td
+                        input.required(type='file', name='file')
+                  tr
+                     td Size:
+                     td
+                        select(name='size')
+                           option(value='', selected='') Select
+                           option(value='Full') Full
+                           option(value='Half') Half
+                  tr
+                     td
+                        | Height:
+                        sup
+                           span(style='color:red') *
+                     td
+                        input.required(type='text', name='height', value='')
+                        br
+                        font(size='1', color='#888888') Only numeric value allowed.
+                  tr
+                     td Website:
+                     td
+                        input(type='text', name='url', value='')
+                  tr
+                     td
+                        | Start Date:
+                        sup
+                           span(style='color:red') *
+                     td
+                        input#date1.required(type='text', name='startdate', value='')
+                  tr
+                     td
+                        | End Date:
+                        sup
+                           span(style='color:red') *
+                     td
+                        input#date2.required(type='text', name='enddate', value='')
+                  //
+                    tr>
+                    <td>Position (order by)</td>
+                    <td><select name="order">
+                    <option value="" selected>Select</option>
+                    <?/*
+                    $order_result=mysql_query("SELECT `order` FROM `admin_adv` WHERE `position`='Right' AND `size`='Half'") or die(mysql_error());
+                    while($order_row=mysql_fetch_array($order_result))
+                    {
+                    echo
+                    }*/
+                    ?>
+                    </select>
+                    </td>
+                    </tr
+                  tr
+                     td(colspan='2')
+                        font(size='1', color='#666666')
+                           | [n.b. If position of this content is RIGHT then Size is mendatory. Otherwise ignore it.]
+                  tr
+                     td
+                     td
+                        input(type='submit', name='submit', value='Add')
+         #panels.clearfix
+            .panel.photo.left
+               h2.ico_mug Photo gallery
+               ul.clearfix
+                  li
+                     img(src='./public/images/img/photos/1.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/2.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/3.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/2.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/1.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/2.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/1.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+                  li
+                     img(src='./public/images/img/photos/3.jpg', alt='photo')
+                     span
+                        a(href='#')
+                           img(src='./public/images/img/accept.jpg', alt='accept')
+                        a(href='#')
+                           img(src='./public/images/img/cancel.jpg', alt='deny')
+               button Add photo
+            // end #photo
+            .panel.todo.left
+               h2.ico_mug To do list
+               p Things to do:
+               ul
+                  li.even
+                     input.noborder(type='checkbox', value='', name='check')
+                     |                     Create more theme fot themeforest
+                     span.date July 24, 2016
+                  li.odd
+                     input.noborder(type='checkbox', value='', name='check')
+                     |                     Sell a looot fo themes
+                     span.date July 24, 2016
+                  li.even
+                     input.noborder(type='checkbox', value='', name='check')
+                     |                     Learn ruby on rails
+                     span.date July 24, 2016
+                  li.odd
+                     input.noborder(type='checkbox', value='', name='check')
+                     |                     Be a better man
+                     span.date July 24, 2016
+               button Add to do
+            // end #todo
+            .panel.calendar.left
+               h2.ico_mug Callendar
+               #datepicker
+               button Add event
+            // end #calendar
+         // end #panels
+         #dialog(title='Welcome')
+            p
+               | Welcome
+               strong
+                  font(color='#FF0000')  Admin
+               |  to Kiel Job Mensa Admin Panel.
+         // end #dialog [if you don't want this, delete whole div and 6th line i custom.js
+      // end #content
+      // end container
