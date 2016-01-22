@@ -130,7 +130,7 @@ module.exports = function(app) {
         // check the user in db
         user.find({"_id": req.body.username, "name": req.body.password}, function (err, docs) {
             if (err) {
-                console.log("login error" + err)
+                console.log("login error" + err);
                 res.json(err);
             }
             else {
@@ -140,7 +140,8 @@ module.exports = function(app) {
                     //var returnable_name = docs[0].img.data;
                     //base64_decode(docs[0].img.data, './uploads/img.png');
                     req.session.email = req.body.username;
-                    req.session.name = "jobseeker";
+                    req.session.name = docs[0].name;
+
                     var thumb = new Buffer(docs[0].img.data).toString('base64');
                     res.render('jobseekerhome.jade', {users: docs, image: thumb});
                 }
@@ -169,4 +170,134 @@ module.exports = function(app) {
             }
         });
     });
+
+
+
+    app.get('/viewProfile', function (req, res) {
+        // check the user in db
+        user.find({"_id": req.session.email}, function (err, docs) {
+            if (err) {
+                res.json(err);
+            }
+            else {
+
+                if (docs.length == 1) {
+                    var thumb = new Buffer(docs[0].img.data).toString('base64');
+                    res.render('jobseekerhome.jade', {users: docs, image: thumb});
+                }
+                else {
+                    // No data found
+                    res.json(err);
+                }
+            }
+        });
+    });
+
+
+    // Will merge both method as they are doing the same things
+    app.get('/viewProfileForUpdation', function (req, res) {
+        user.find({"_id": req.session.email}, function (err, docs) {
+            if (err) {
+                res.json(err);
+            }
+            else {
+
+                if (docs.length == 1) {
+                    var thumb = new Buffer(docs[0].img.data).toString('base64');
+                    res.render('UpdateSeekerData.jade', {users: docs, image: thumb});
+                }
+                else {
+                    // No data found
+                    res.json(err);
+                }
+            }
+        });
+    });
+
+    app.post('/updateSeekerData',function (req, res){
+
+        console.log("Enshulidindsa");
+        user.find(req.session.email, function(err, user) {
+            u = user[0];
+            if (err)
+                res.json(err);
+            else {
+
+                u.father_name = req.body.job_seeker_father_name,
+                u.mother_name = req.body.job_seeker_mother_name,
+                u.nationality = req.body.job_seeker_nationality,
+                u.religion = req.body.job_seeker_religion,
+                u.current_addr = req.body.job_seeker_current_address,
+                u.permanent_addr = req.body.job_seeker_permanent_address,
+                u.home_phone = req.body.job_seeker_homephone,
+                u.mobile_phone = req.body.job_seeker_mobile,
+                u.office_phone = req.body.job_seeker_officephone,
+                u.edu_level = req.body.job_seeker_edu_level,
+                u.edu_start_year = req.body.job_seeker_edu_start_year,
+                u.edu_end_year = req.body.job_seeker_edu_end_year,
+                u.edu_institute_name = req.body.job_seeker_edu_institute_name,
+                u.edu_addr = req.body.job_seeker_edu_institute_address,
+                u.emp_post = req.body.job_seeker_designation,
+                u.emp_company_name = req.body.job_seeker_comp_name,
+                u.emp_company_addr = req.body.job_seeker_comp_address,
+                u.emp_company_webaddr = req.body.job_seeker_comp_web_address,
+                u.emp_responsibiility = req.body.job_responsibility,
+                u.language_spoken = req.body.job_seeker_languages,
+                u.skills = req.body.job_seeker_skill
+            }
+
+            // save the user
+            u.save(function(err) {
+                if (err)
+                    res.json(err);
+                else{
+                    res.redirect('/viewProfile');
+                }
+            });
+
+        });
+    });
+
+
+    getAppliedSeekersData = function(data,req,res){
+
+        var temparr = [];
+
+        for (var i=0;i<data.length;i++){
+            temparr[i] = data[i] ;
+        }
+
+        var dataArr= [];
+        /// Some Testing
+        function asyncLoop( i, callback ) {
+            if( i < temparr.length ) {
+
+                user.find({"_id":temparr[i]}, function(err,docs){
+                    if(err){
+                        console.log("login error" + err);
+                        res.json(err);
+                    }
+                    else{
+                        if (docs.length > 0) {
+                            dataArr[i] = docs;
+                        }
+                        else {
+                            // No data found
+                            console.log("No Jobs Data Found " + err)
+                            res.json(err);
+                        }
+                    }
+                    asyncLoop( i+1, callback );
+                });
+            } else {
+                callback();
+            }
+        }
+        asyncLoop( 0, function() {
+            // put the code that should happen after the loop here
+            res.render('ShowAppliedSeekers',{users: dataArr});
+        });
+
+    }
+
 };

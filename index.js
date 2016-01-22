@@ -25,6 +25,8 @@ app.use(session({
     saveUninitialized: true
 }));
 
+
+
 var server = http.createServer(app).listen(app.get('port'),'0.0.0.0',function(){
     console.log('Server listening on port ' + app.get('port'));
 });
@@ -32,7 +34,7 @@ var server = http.createServer(app).listen(app.get('port'),'0.0.0.0',function(){
 require('./server/RoutesAndDB.js')(app);
 require('./server/RoutesAndDBForEmp.js')(app);
 require('./server/RoutesAndDBForJobs.js')(app);
-require('./server/DBForAppliedJobs.js')(app);
+var a = require('./server/DBForAppliedJobs.js')(app);
 
 
 // Routes
@@ -40,6 +42,14 @@ require('./server/DBForAppliedJobs.js')(app);
 // redirect the user for ViewJobs
 app.get ('/ViewJobs', function (req,res) {
     res.redirect('fetchAllData');
+});
+
+app.get('/viewResume',function(req,res){
+    res.redirect('viewProfile');
+});
+
+app.get('/viewEmployerProfile',function(req,res){
+    res.redirect('viewProfileOfEmployer');
 });
 
 app.get('/homeMenuSeeker', function(req,res){
@@ -52,10 +62,21 @@ app.get('/',function(req,res){
         console.log("user already Loged in");
     }
     else{
-        res.render('index.jade');
+        getAllJobs(jobsCallback,req,res);
         //res.sendFile('index.html');
     }
 });
+
+var jobsCallback = function(data,req,res) {
+    console.log(data);
+    res.render('index.jade',{data:data});
+};
+
+
+app.get('/updateSeekerData', function (req,res) {
+    res.redirect('viewProfileForUpdation');
+});
+
 
 app.get('/OpenAddjobs', function (req,res) {
     res.render('Addjobs');
@@ -65,6 +86,32 @@ app.get('/showJobs',function(req,res){
     res.redirect('fetchDataAddedByEmployer');
 });
 
+
+
+app.get('/ViewAppliedJobs',function(req,res){
+    getAppliedDataOfSeeker(req.session.email,idcallback,req,res);
+});
+
+var idcallback = function(data,req,res) {
+    getJobData(data,req,res);
+};
+
+
+app.get('/showIndividualSeeker/:id', function (req,res) {
+    getAppliedDataOfEmployer(req.params.id,employercallback,req,res);
+});
+
+var employercallback = function(data,req,res) {
+    getAppliedSeekersData(data,req,res);
+};
+
+//app.post('/updateSeekerData',function(req,res){
+//    res.redirect('/updatejobSeekerData');
+//});
+
+
+app.get('/fetchAppliedJobs', function (req,res) {
+});
 
 app.get('/logout',function(req,res) {
 

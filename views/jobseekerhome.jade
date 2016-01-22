@@ -44,8 +44,7 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                                 .content_title
                                     h5
                                         img(src='../public/images/jobs1.png', width='25')
-                                        |   Job Seeker Name:
-                                        label.emptitle
+                                        |   Job Seeker Name: #{users[0].name}
                             td.azjGrayArial12px(align='right')
                                 a(href='/logout', style='color: #1e7892;text-decoration: none') Logout
                         tr
@@ -56,32 +55,137 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                             tr
                             tr
                                 td(bgcolor='#FFFFFF')
-                                    a(href='#')
+                                    a(href='/viewResume')
                                         //img(src='images/pix.gif', width='1', height='28', align='middle', border='0')
                                         | View Resume
                             tr
                                 td(bgcolor='#FFFFFF')
-                                    a(href='#') Block Employer
+                                    a(href='/ViewJobs') View Jobs
                             tr
                                 td(bgcolor='#FFFFFF')
-                                    a(href='#') View Stats
+                                    a(href='/updateSeekerData') Update Data
                             tr
                                 td(bgcolor='#FFFFFF')
-                                    a(href='#') Job Cart
-                            tr
-                                td(bgcolor='#FFFFFF')
-                                    a(href='#') Email Resume
+                                    a(href='/ViewAppliedJobs') Applied Jobs
                 .content
                     #medsection1
                         table(width='660', border='0', cellspacing='0', cellpadding='0')
                             tr
                                 td.azjtabNormal(width='600', height='57')
                                     div(align='justify')
-                                        br
-                                        table(width='600', align='center', border='0', cellspacing='1', cellpadding='0', style='margin-bottom:1px;')
-                                            tr.azjLebels(height='23')
-                                                td.azjLebels(colspan='5', bgcolor='#dadce1')
-                                                    strong  Resume Summary
+                                        table(style='margin-bottom: 1px;', width='100%', border='0', cellpadding='0', cellspacing='1')
+                                            tbody
+                                                tr
+                                                    td(colspan='3', height='21', bgcolor='#dadce1')
+                                                        table(width='100%', border='0', cellpadding='0', cellspacing='0')
+                                                            tbody
+                                                                tr
+                                                                    td.azjFormTitle(style='padding-left: 11px; padding-right: 1px;')
+                                                                        u
+                                                                            | Personal
+                                                                            | Detail
+                                                                    td(width='46')  
+                                                tr(valign='top')
+                                                    td.azjLebels(valign='middle', width='148', height='30', align='right', bgcolor='#ffffff') Name  :
+                                                    td.azjValues2(valign='middle', width='216', height='23', bgcolor='#ffffff') #{users[0].name}
+                                                    // PHOTOGRAPH
+                                                    td.azjValues2(rowspan='6', width='154', height='-1', align='right', bgcolor='#ffffff')
+                                                        // ---------------------Edit by Tanviron 1st August 2014------------------------------------
+                                                        table(width='124', height='135', border='0', cellpadding='0', cellspacing='0')
+                                                            tbody
+                                                                tr
+                                                                    td(style='border-right: 1px solid rgb(132, 150, 215); border-bottom: 1px solid rgb(132, 150, 215);')
+                                                                        table(width='140', height='140', align='center', bgcolor='#dadce1', border='0', cellpadding='0', cellspacing='7')
+                                                                            tbody
+                                                                                tr
+                                                                                    - var thumb = new Buffer(users[0].img.data).toString('base64');
+                                                                                    td(valign='middle', width='126', height='135', align='center', bgcolor='#e2e4e5')
+                                                                                        img(src='data:image/jpeg;base64,#{thumb}', width='124', height='135', alt='photo')
+                                                // FATHERS NAME:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Father's
+                                                        | Name :
+                                                    td.azjValues2(height='23', bgcolor='#ffffff') #{users[0].father_name}
+                                                // MOTHERS NAME:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Mother's
+                                                        | Name :
+                                                    td.azjValues2(height='23', bgcolor='#ffffff') #{users[0].mother_name}
+                                                // DATE OF BIRTH:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff') Date of Birth :
+                                                    td.azjValues2(height='23', bgcolor='#ffffff') #{users[0].dob}
+                                                // GENDER:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Gender
+                                                        | :
+                                                    td.azjValues2(height='23', bgcolor='#ffffff') #{users[0].gender}
+                                                // MARITAL STATUS
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Marital
+                                                        | Status :
+                                                    td.azjValues2(height='23', bgcolor='#ffffff') #{users[0].marital_status}
+                                                // NATIONALITY:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Nationality
+                                                        | :
+                                                    td.azjValues2(colspan='2', height='23', bgcolor='#ffffff') #{users[0].nationality}
+                                                // RELIGION:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Religion
+                                                        | :
+                                                    td.azjValues2(colspan='2', height='23', bgcolor='#ffffff') #{users[0].religion}
+                                                // PRESENT ADDRESS:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='30', align='right', bgcolor='#ffffff')
+                                                        | Present
+                                                        | Address :
+                                                    td.azjValues2(colspan='2', height='30', bgcolor='#ffffff') #{users[0].current_addr}
+                                                // PERMANENT ADDRESS:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='30', nowrap='nowrap', align='right', bgcolor='#ffffff')
+                                                        | Permanent
+                                                        | Address :
+                                                    td.azjValues2(colspan='2', height='30', bgcolor='#ffffff') #{users[0].permanent_addr}
+                                                // HOME PHONE:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Home
+                                                        | Phone :
+                                                    td.azjValues2(colspan='2', height='23', bgcolor='#ffffff') #{users[0].home_phone}
+                                                // MOBILE
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Mobile
+                                                        | :
+                                                    td.azjValues2(colspan='2', height='23', bgcolor='#ffffff') #{users[0].mobile_phone}
+                                                // EMAIL:
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Email
+                                                        | :
+                                                    td.azjValues2(colspan='2', height='23', bgcolor='#ffffff') #{users[0]._id}
+                                        table(width='100%', border='0', cellpadding='0', cellspacing='1')
                                             tr
-                                                td(height='4', colspan='5', bgcolor='#dadce1')
-                                                    | Footer Image
+                                            td.azjFormTitle(height='22', colspan='2', bgcolor='#dadce1', style='padding-left:11px; padding-right:1px;')
+                                                table(width='100%', border='0', cellspacing='0', cellpadding='0')
+                                                    tr
+                                                        td.azjFormTitle
+                                                            u Employment history
+                                            table.azjValign(width='70%', border='0', cellpadding='0', cellspacing='1', style='margin-bottom:1px;')
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Company Name
+                                                        | :
+                                                    td.azjValues2(colspan='2', height='23', bgcolor='#ffffff') #{users[0].emp_company_name}
+                                                tr(valign='top')
+                                                    td.azjLebels(height='23', align='right', bgcolor='#ffffff')
+                                                        | Company Address:
+                                                    td.azjValues2(colspan='2', height='23', bgcolor='#ffffff')
+                                                        textarea #{users[0].emp_company_addr}

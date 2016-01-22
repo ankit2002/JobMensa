@@ -68,8 +68,8 @@ module.exports = function(app) {
                if (docs.length == 1) {
 
                    req.session.email = req.body.username;
-                   req.session.name = "employee";
-                   res.render('EmployerHome.jade', {users: docs});
+                   req.session.name = docs[0].first_name+" "+docs[0].last_name;
+                   res.render('EmployerHome.jade', {users: docs,name:req.session.name});
                }
                else {
                    // No data found
@@ -82,4 +82,24 @@ module.exports = function(app) {
 
     });
 
+
+    app.get('/viewProfileOfEmployer', function (req, res) {
+        // check the user in db
+        user.find({"_id":req.session.email}, function(err,docs){
+            if(err){
+                console.log("login error" + err);
+                res.json(err);
+            }
+            else{
+                if (docs.length == 1) {
+                    res.render('EmployerHome.jade', {users: docs});
+                }
+                else {
+                    // No data found
+                    console.log("No EMP Data Found" + err)
+                    res.json(err);
+                }
+            }
+        });
+    });
 };

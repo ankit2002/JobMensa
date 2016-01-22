@@ -64,7 +64,7 @@ module.exports = function(app) {
             }
             else{
                 if (docs.length > 0) {
-                    res.render('ViewJobsForSeeker',{users: docs});
+                    res.render('ViewJobsForSeeker',{users: docs, name:req.session.name});
                 }
                 else {
                     // No data found
@@ -95,5 +95,87 @@ module.exports = function(app) {
             }
         });
     });
+
+    getAllJobs = function (callback,req,res) {
+        user.find({}, function(err,docs){
+            if(err){
+                console.log("data Error" + err);
+                res.json(err);
+            }
+            else{
+                if (docs.length > 0) {
+                    callback(docs,req,res);
+                }
+                else {
+                    // No data found
+                    console.log("No Jobs Data Found " + err)
+                    res.json(err);
+                }
+            }
+        });
+    }
+
+
+    getJobData = function(data,req,res){
+
+        var temparr = [];
+
+        for (var i=0;i<data.length;i++){
+            temparr[i] = data[i] ;
+        }
+
+        //console.log("ankit Data " + temparr.length );
+        //
+        //user.find({"_id":{ $in :[temparr[0],temparr[1]]}}, function(err,docs){
+        //    if(err){
+        //        console.log("login error" + err);
+        //        res.json(err);
+        //    }
+        //    else{
+        //        if (docs.length > 0) {
+        //            console.log("ankit jobdatafile docs" +  docs);
+        //            res.render('ViewAppliedJobs',{users: docs, name:req.session.name});
+        //        }
+        //        else {
+        //            // No data found
+        //            console.log("No Jobs Data Found " + err)
+        //            res.json(err);
+        //        }
+        //    }
+        //});
+
+
+        var dataArr= [];
+        /// Some Testing
+        function asyncLoop( i, callback ) {
+            if( i < temparr.length ) {
+
+                user.find({"_id":temparr[i]}, function(err,docs){
+                    if(err){
+                        console.log("login error" + err);
+                        res.json(err);
+                    }
+                    else{
+                        if (docs.length > 0) {
+                            dataArr[i] = docs;
+                        }
+                        else {
+                            // No data found
+                            console.log("No Jobs Data Found " + err)
+                            res.json(err);
+                        }
+                    }
+                    asyncLoop( i+1, callback );
+                });
+            } else {
+                callback();
+            }
+        }
+        asyncLoop( 0, function() {
+            // put the code that should happen after the loop here
+            res.render('ViewAppliedJobs',{users: dataArr, name:req.session.name});
+        });
+
+    }
 
 };

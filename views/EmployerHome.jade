@@ -1,25 +1,76 @@
 //Created by ANKIT on 16/01/16.
-doctype html
-html
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
     head
-        style
-            include ../public/cssfiles/jobseekerhome.css
-        title
-            | JobMensa
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        title Job Mensa
+        link(rel='stylesheet', media='screen', href='../public/cssfiles/style.css')
+        link(href='../public/cssfiles/style.css', rel='stylesheet', type='text/css')
+        link(href='../public/cssfiles/styles.css', rel='stylesheet', type='text/css')
+        script(src='../public/jsfiles/jquery.js')
+        script(type='text/javascript', src='../public/jsfiles/jquery.validate.js')
+        script.
+            $(document).ready(function () {
+                $("#table1").validate();
+            });
+        style.
+            .content {
+                float: right;
+                font-family: "Arial";
+                font-size: 11px;
+                height: auto;
+                margin-top: 5px;
+                padding-left: 5px;
+                width: 670px;
+            }
     body
-        div(class="header")
-            div(id="headertitle")
-                | Welcome
-
-        ul
-            li
-                a.active(href='#') Home
-            li
-                a(href='/OpenAddjobs') Add Jobs
-            li
-                a(href='/showJobs') View Jobs
-            li
-                a(href='/logout') logout
-
-        div(style='margin-left:25%;height:300px;' id="news")
-            li #{users[0]._id}:
+        // MAIN DIV
+        .maindiv
+            // Banner
+            header
+                h1
+                    a(title='CSS Junction', href='#')
+                        img(src='../public/images/logo.png', width='200px')
+                    small Germany Largest Jobsite
+            // End Banner
+            // Job TITLE
+            // / Job TITLE
+            // Content
+            .w9000.center
+                table(style='border-top: 1px solid rgb(255, 255, 255);', width='100%', align='center', border='0', cellpadding='0', cellspacing='0')
+                    tbody
+                        tr
+                            td.azjGrayArial12px(height='30')
+                                .content_title
+                                    h5
+                                        img(src='../public/images/jobs1.png', width='25')
+                                        |   Employer Name: #{name}
+                            td.azjGrayArial12px(align='right')
+                                a(href='/logout', style='color: #1e7892;text-decoration: none') Logout
+                        tr
+                            td(colspan='2')
+                .leftmenu
+                    table#azjmenu(cellpadding='0', cellspacing='1')
+                        tbody
+                            tr
+                                td(bgcolor='#FFFFFF')
+                                    a(href='/viewEmployerProfile')
+                                        //img(src='images/pix.gif', width='1', height='28', align='middle', border='0')
+                                        | Home
+                            tr
+                                td(bgcolor='#FFFFFF')
+                                    a(href='/OpenAddjobs') Add Jobs
+                            tr
+                                td(bgcolor='#FFFFFF')
+                                    a(href='/showJobs') View Jobs
+                .content
+                    #medsection1
+                        table(width='660', border='0', cellspacing='0', cellpadding='0')
+                            tr
+                                td.azjtabNormal(width='600', height='57')
+                                    div(align='justify')
+                                        br
+                                        table(width='600', align='center', border='0', cellspacing='1', cellpadding='0', style='margin-bottom:1px;')
+                                            tr
+                                                td(colspan='4' align='center')
+                                                    h2 Employer Homes

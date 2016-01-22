@@ -246,7 +246,15 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                      table.box-shadow-cat(width='100%')
                         tr
                            td
-                              img(src='../public/images/add/cat.png', width='472', height='287')
+                              table(border=1, width='100%')
+                                 for d in data
+                                    tr(bgcolor="white")
+                                       td(width='50%')
+                                          | Title : #{d.job_position_title}
+                                       td(width='50%')
+                                          | Field : #{d.job_field}
+
+                              //img(src='../public/images/add/cat.png', width='472', height='287')
                   .add
                      table.box-shadow(width='100%')
                         tr

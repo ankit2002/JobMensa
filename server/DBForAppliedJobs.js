@@ -38,4 +38,71 @@ module.exports = function(app) {
         });
     });
 
+
+
+    // Method to fetch all the jobs applied by Individual Seeker
+    app.get('/fetchAppliedJobsBySeeker', function(req,res){
+
+    });
+
+
+    getAppliedDataOfSeeker = function(data,callback,req,res){
+
+        user.find({"job_seeker_details":data}, function(err,docs){
+            if(err){
+                console.log("login error" + err);
+                res.json(err);
+            }
+            else{
+                if (docs.length > 0) {
+
+                    var tempArr = [];
+
+                    var i=0;
+                    for(var d in docs) {
+                        tempArr[i] = docs[i].jobid.toString();
+                        i++;
+                    }
+
+                    callback(tempArr,req,res);
+                }
+                else {
+                    // No data found
+                    console.log("No Jobs Data Found " + err)
+                    res.json(err);
+                }
+            }
+        });
+    }
+
+
+    getAppliedDataOfEmployer = function(data,callback,req,res){
+
+        user.find({"jobid":data}, function(err,docs){
+            if(err){
+                console.log("login error" + err);
+                res.json(err);
+            }
+            else{
+                if (docs.length > 0) {
+
+                    var tempArr = [];
+
+                    var i=0;
+                    for(var d in docs) {
+                        tempArr[i] = docs[i].job_seeker_details;
+                        i++;
+                    }
+
+                    callback(tempArr,req,res);
+                }
+                else {
+                    // No data found
+                    console.log("No Jobs Data Found " + err)
+                    res.json(err);
+                }
+            }
+        });
+    }
+
 };

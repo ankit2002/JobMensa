@@ -1,55 +1,102 @@
-//Created by ANKIT on 19/01/16.
-doctype html
-html
-   head
-      style
-         include ../public/cssfiles/jobseekerhome.css
-      title
-         | JobMensa
-      script.
-         var something = function () {
-            alert("applied successfully");
-            // Need to update DB
-            // Show PopUp
-         }
-   body
-      div(class="header")
-         div(id="headertitle")
-            | Welcome
-      ul
-         li
-            a(href='/#') Home
-         li
-            a.active(href='/ViewJobs') View Jobs
-         li
-            a(href='#update_data') Update Data
-         li
-            a(href='/logout') logout
-      div(style='margin-left:25%;height:300px;' id="news")
-         form(action='/saveDataInDB' method="post")
-            - var a = data[0];
-            - var jid = jobid;
-            input(type='hidden', value=a name="employerData")
-            input(type='hidden', value=jid name="jobid")
-            table
-               tr
-               td
-                  | Name
-               td
-                  input(type="text", value="#{data[0].name}")
-               td
-                  | Post
-               td
-                  input(type="text", value="#{data[0].emp_post}")
-               tr
-               td
-                  | WebSite
-               td
-                  input(type="text", value="#{data[0].emp_company_webaddr}")
-               td
-                  | Company Name
-               td
-                  input(type="text", value="#{data[0].emp_company_name}")
-               tr
-               td(colspan=4 align='center')
-                  input(type="submit", value="Apply")
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        title Job Mensa
+        link(rel='stylesheet', media='screen', href='../public/cssfiles/style.css')
+        link(href='../public/cssfiles/style.css', rel='stylesheet', type='text/css')
+        link(href='../public/cssfiles/styles.css', rel='stylesheet', type='text/css')
+        script(src='../public/jsfiles/jquery.js')
+        script(type='text/javascript', src='../public/jsfiles/jquery.validate.js')
+        script.
+            $(document).ready(function () {
+                $("#table1").validate();
+            });
+        style.
+            .content {
+                float: right;
+                font-family: "Arial";
+                font-size: 11px;
+                height: auto;
+                margin-top: 5px;
+                padding-left: 5px;
+                width: 670px;
+            }
+    body
+        // MAIN DIV
+        .maindiv
+            // Banner
+            header
+                h1
+                    a(title='CSS Junction', href='#')
+                        img(src='../public/images/logo.png', width='200px')
+                    small Germany Largest Jobsite
+            // End Banner
+            // Job TITLE
+            // / Job TITLE
+            // Content
+            .w9000.center
+                table(style='border-top: 1px solid rgb(255, 255, 255);', width='100%', align='center', border='0', cellpadding='0', cellspacing='0')
+                    tbody
+                        tr
+                            td.azjGrayArial12px(height='30')
+                                .content_title
+                                    h5
+                                        img(src='../public/images/jobs1.png', width='25')
+                                        |   Job Seeker Name: #{data[0].name}
+                            td.azjGrayArial12px(align='right')
+                                a(href='/logout', style='color: #1e7892;text-decoration: none') Logout
+                        tr
+                            td(colspan='2')
+                .leftmenu
+                    table#azjmenu(cellpadding='0', cellspacing='1')
+                        tbody
+                            tr
+                            tr
+                                td(bgcolor='#FFFFFF')
+                                    a(href='/viewResume')
+                                        //img(src='images/pix.gif', width='1', height='28', align='middle', border='0')
+                                        | View Resume
+                            tr
+                                td(bgcolor='#FFFFFF')
+                                    a(href='/ViewJobs') View Jobs
+                            tr
+                                td(bgcolor='#FFFFFF')
+                                    a(href='/updateSeekerData') Update Data
+                            tr
+                                td(bgcolor='#FFFFFF')
+                                    a(href='/ViewAppliedJobs') Applied Jobs
+                .content
+                    #medsection1
+                        table(width='660', border='0', cellspacing='0', cellpadding='0')
+                            tr
+                                td.azjtabNormal(width='600', height='57')
+                                    div(align='justify')
+                                       form(action='/saveDataInDB' method="post")
+                                           input(type='hidden', value=data[0]._id name="employerData")
+                                           input(type='hidden', value=jobid name="jobid")
+                                           table(width='600', align='center', border='0', cellspacing='1', cellpadding='0', style='margin-bottom:1px;')
+                                               tr
+                                                   td(colspan='4' align='center')
+                                                      h2 Apply Jobs
+                                                   tr.azjLebels(height='23')
+                                                      td.azjLebels(bgcolor='#dadce1')
+                                                           | Name
+                                                      td.azjLebels(bgcolor='#dadce1')
+                                                           input(type="text", value="#{data[0].name}")
+                                                      td.azjLebels(bgcolor='#dadce1')
+                                                           | Post
+                                                      td.azjLebels(bgcolor='#dadce1')
+                                                           input(type="text", value="#{data[0].emp_post}")
+                                                   tr.azjLebels(height='23')
+                                                      td.azjLebels(bgcolor='#dadce1')
+                                                           | WebSite
+                                                      td.azjLebels(bgcolor='#dadce1')
+                                                           input(type="text", value="#{data[0].emp_company_webaddr}")
+                                                      td.azjLebels(bgcolor='#dadce1')
+                                                           | Company Name
+                                                      td.azjLebels(bgcolor='#dadce1')
+                                                           input(type="text", value="#{data[0].emp_company_name}")
+                                                   tr.azjLebels(height='23')
+                                                      td.azjLebels(bgcolor='#dadce1',colspan=4 align='center')
+                                                           input(type="submit", value="Apply")
