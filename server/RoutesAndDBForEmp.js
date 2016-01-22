@@ -92,7 +92,8 @@ module.exports = function(app) {
             }
             else{
                 if (docs.length == 1) {
-                    res.render('EmployerHome.jade', {users: docs});
+                    console.log('name '+req.session.name);
+                    res.render('EmployerHome.jade', {users: docs,name:req.session.name});
                 }
                 else {
                     // No data found

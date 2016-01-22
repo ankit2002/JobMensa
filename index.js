@@ -186,11 +186,3 @@ io.sockets.on('connection', function(socket){
         updateNicknames();
     });
 });
-
-//app.post('/saveApplyDataInDB', function (req,res) {
-//    // mapping of both Collections and add data to DB
-//
-//    app.locals.job_id = req.body.jobid;
-//    app.locals.job_seeker_id = req.body.employerData;
-//    res.redirect('appliedJobs');
-//});

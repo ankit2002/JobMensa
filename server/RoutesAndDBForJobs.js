@@ -85,7 +85,7 @@ module.exports = function(app) {
             }
             else{
                 if (docs.length > 0) {
-                    res.render('ViewJobsForEmployer',{users: docs});
+                    res.render('ViewJobsForEmployer',{users: docs,name:req.session.name});
                 }
                 else {
                     // No data found

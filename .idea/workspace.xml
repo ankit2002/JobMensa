@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83930e3-182b-44e7-81c6-a76de806f50d" name="Default" comment="Design Provided by Tanvir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/.zuul.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/bench/bench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/binary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/chatnew.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/bench/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/is-buffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/lib/json3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/lib/json3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/on.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/component-emitter/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/json3/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/node_modules/socket.io-parser/node_modules/component-emitter/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/socket.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/socket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfiles/socket.io-client/lib/url.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDB.js" afterPath="$PROJECT_DIR$/server/RoutesAndDB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" afterPath="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/chat.jade" afterPath="$PROJECT_DIR$/views/chat.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" afterPath="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" afterPath="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" afterPath="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cssfiles/main.css" afterPath="$PROJECT_DIR$/public/cssfiles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JobMensa.iws" />
@@ -71,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.446429">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.888889">
+              <caret line="95" column="42" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoutesAndDB.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
+      <file leaf-file-name="RoutesAndDBForEmp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForEmp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.962963">
-              <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -97,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
+              <caret line="87" column="51" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="51" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -105,41 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowAppliedSeekers.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/ShowAppliedSeekers.jade">
+      <file leaf-file-name="Addjobs.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/Addjobs.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.333333">
-              <caret line="86" column="77" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chatnew.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/chatnew.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.888889">
-              <caret line="275" column="67" selection-start-line="275" selection-start-column="50" selection-end-line="275" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jobseekerregistration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="40" column="67" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.90604025">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -190,7 +116,6 @@
         <option value="$PROJECT_DIR$/design/css/style.css" />
         <option value="$PROJECT_DIR$/public/cssfiles/logincss.css" />
         <option value="$PROJECT_DIR$/public/htmlfiles/EmployerLogin.html" />
-        <option value="$PROJECT_DIR$/public/cssfiles/main.css" />
         <option value="$PROJECT_DIR$/public/htmlfiles/JobSeekerLogin.html" />
         <option value="$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html" />
         <option value="$PROJECT_DIR$/public/cssfiles/style.css" />
@@ -201,17 +126,18 @@
         <option value="$PROJECT_DIR$/views/ViewAppliedJobs.jade" />
         <option value="$PROJECT_DIR$/server/DBForAppliedJobs.js" />
         <option value="$PROJECT_DIR$/views/EmployerHome.jade" />
-        <option value="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" />
         <option value="$PROJECT_DIR$/views/Addjobs.jade" />
         <option value="$PROJECT_DIR$/views/ViewJobsForEmployer.jade" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
         <option value="$PROJECT_DIR$/views/chat.jade" />
         <option value="$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html" />
         <option value="$PROJECT_DIR$/server/RoutesAndDB.js" />
         <option value="$PROJECT_DIR$/views/ShowAppliedSeekers.jade" />
         <option value="$PROJECT_DIR$/views/chatnew.jade" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/public/cssfiles/main.css" />
+        <option value="$PROJECT_DIR$/server/RoutesAndDBForEmp.js" />
+        <option value="$PROJECT_DIR$/server/RoutesAndDBForJobs.js" />
       </list>
     </option>
   </component>
@@ -295,20 +221,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JobMensa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JobMensa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,17 +325,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1243" height="777" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18584071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18584071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24858756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24858756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -526,14 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/cssfiles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9050633">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/htmlfiles/EmployerRegistration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.75">
@@ -611,14 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Addjobs.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/ViewJobsForEmployer.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -632,16 +528,6 @@
         <state vertical-scroll-proportion="0.69101125">
           <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForEmp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5224719">
-          <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,38 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/socket.io-client/socket.io.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="654" column="0" selection-start-line="654" selection-start-column="0" selection-end-line="655" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.962963">
-          <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="40" column="67" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -755,10 +613,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/htmlfiles/jobseekerregistration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cssfiles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3962264">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/RoutesAndDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45073375">
+          <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.446429">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.888889">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForEmp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/RoutesAndDBForJobs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="51" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Addjobs.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90604025">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding />
         </state>
       </provider>
