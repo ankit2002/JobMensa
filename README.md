@@ -1,14 +1,17 @@
 # JobMensa Tanvir 22.01.2016
 
-1. Install node , npm and webstorm 11 and Mongodb
+1. Install node, webstorm 11 and Mongodb
 
 2. download the ZIP
 
 3.  create a new Folder in Wemstrom projects and unzip the download file
 
- npm install express
+ install express
+ 
  install mongoose
+ 
  install body-parser
+ 
  install multer
  
  
@@ -20,7 +23,7 @@
    Each component can have multiple views as exampled [here](https://github.com/ankit2002/JobMensa/).
 
 * CSS for Component
-   css file can be easily defined per components  via grunt job.  If you are using less file please modify [Gruntfile.js](https://github.com/FredrikNoren/ungit/blob/master/Gruntfile.js) file to include new less file.
+   css file can be easily defined per components  via a common css folder
 
 * JS for Component
 
