@@ -1,4 +1,4 @@
-# JobMensa Tanvir 22.01.2016
+# JobMensa
 
 1. Install node, webstorm 11 and Mongodb
 
